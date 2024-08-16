@@ -15,6 +15,15 @@
   *
   ******************************************************************************
   */
+
+/**
+ * @author  Julio Cesar Bernal Mendez
+ * @brief   This is my first task created using FreeRTOS. It prints the blue LED on the board at a 500 ms rate.
+ *          I'll also use this project as a template for future FreeRTOS exercices.
+ * @version 0.1
+ * @date    2024-08-15
+ * 
+ */
 /* USER CODE END Header */
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
@@ -88,7 +97,10 @@ int main(void)
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
   /* USER CODE BEGIN 2 */
-  xTaskCreate( LED_Task, "LED", 128, NULL, 1, NULL );
+  /* create one FreeRTOS task (LED_Task) */
+  xTaskCreate( LED_Task, "BLUE LED", 128, NULL, 1, NULL );
+
+  /* start FreeRTOS scheduler */
   vTaskStartScheduler();
   /* USER CODE END 2 */
 
@@ -97,7 +109,7 @@ int main(void)
   while (1)
   {
     /* USER CODE END WHILE */
-
+    
     /* USER CODE BEGIN 3 */
   }
   /* USER CODE END 3 */
@@ -201,12 +213,19 @@ static void MX_GPIO_Init(void)
 }
 
 /* USER CODE BEGIN 4 */
+/**
+ * @brief 
+ * 
+ * @param pvParameters : no parameters used at all for this task
+ */
 void LED_Task( void *pvParameters )
 {
   for ( ; ; )
   {
-    HAL_GPIO_TogglePin( GPIOD, GPIO_PIN_15 );
+    /* toggle blue LED */
+    HAL_GPIO_TogglePin( GPIOD, LD6_Pin );
 
+    /* wait for 500 tick periods (500 ms) */
     vTaskDelay( pdMS_TO_TICKS( 500 ) );
   }
 }
