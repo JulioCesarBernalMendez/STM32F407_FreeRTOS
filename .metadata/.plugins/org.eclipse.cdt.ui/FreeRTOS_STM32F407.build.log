@@ -1,0 +1,10 @@
+19:44:31 **** Incremental Build of configuration Debug for project FreeRTOS_STM32F407 ****
+make -j8 all 
+arm-none-eabi-size  FreeRTOS_STM32F407.elf 
+   text	   data	    bss	    dec	    hex	filename
+  16532	     20	  78844	  95396	  174a4	FreeRTOS_STM32F407.elf
+Finished building: default.size.stdout
+ 
+
+19:44:31 Build Finished. 0 errors, 0 warnings. (took 510ms)
+

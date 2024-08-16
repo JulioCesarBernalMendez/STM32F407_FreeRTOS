@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Application_001_Blinky/FreeRTOS_STM32F407_Test.ioc&apos; to &apos;Application_001_Blinky.ioc&apos;" description="Rename resource &apos;FreeRTOS_STM32F407_Test.ioc&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="FreeRTOS_STM32F407_Test.ioc" name="Application_001_Blinky.ioc" stamp="1723772818311" updateReferences="true"/>
+</session>
