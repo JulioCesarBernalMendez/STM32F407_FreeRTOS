@@ -8,6 +8,7 @@
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
+			<item value="tas"/>
 			<item value="LED_Task"/>
 			<item value="GPIO_PIN_15"/>
 			<item value="led_task"/>
