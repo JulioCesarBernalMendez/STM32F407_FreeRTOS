@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Application_003_Example_4.1_Creating_Tasks_v1/Application_002_2_Separate_Blinky_Tasks.ioc&apos; to &apos;Application_003_Example_4.1_Creating_Tasks_v1.ioc&apos;" description="Rename resource &apos;Application_002_2_Separate_Blinky_Tasks.ioc&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Application_002_2_Separate_Blinky_Tasks.ioc" name="Application_003_Example_4.1_Creating_Tasks_v1.ioc" stamp="1723908645440" updateReferences="true"/>
+</session>
