@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Application_007_Example_4.4_Blocked_State_To_Delay/Application_006_Example_4.3_Experimenting_Priorities.ioc&apos; to &apos;Application_007_Example_4.4_Blocked_State_To_Delay.ioc&apos;" description="Rename resource &apos;Application_006_Example_4.3_Experimenting_Priorities.ioc&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Application_006_Example_4.3_Experimenting_Priorities.ioc" name="Application_007_Example_4.4_Blocked_State_To_Delay.ioc" stamp="1724208967376" updateReferences="true"/>
+</session>
