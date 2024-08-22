@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Application_008_Example_4.5_Converting_Tasks_vTaskDelayUntil/Application_007_Example_4.4_Blocked_State_To_Delay.ioc&apos; to &apos;Application_008_Example_4.5_Converting_Tasks_vTaskDelayUntil.ioc&apos;" description="Rename resource &apos;Application_007_Example_4.4_Blocked_State_To_Delay.ioc&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Application_007_Example_4.4_Blocked_State_To_Delay.ioc" name="Application_008_Example_4.5_Converting_Tasks_vTaskDelayUntil.ioc" stamp="1724290301620" updateReferences="true"/>
+</session>
