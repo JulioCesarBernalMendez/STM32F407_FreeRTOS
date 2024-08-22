@@ -1,0 +1,16 @@
+20:08:20 **** Incremental Build of configuration Debug for project Application_008_Example_4.5_Converting_Tasks_xTaskDelayUntil ****
+make -j8 all 
+arm-none-eabi-gcc -o "Application_008_Example_4.5_Converting_Tasks_xTaskDelayUntil.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\julio\Downloads\FreeRTOS_STM32F407\Application_008_Example_4.5_Converting_Tasks_xTaskDelayUntil\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Application_008_Example_4.5_Converting_Tasks_xTaskDelayUntil.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Application_008_Example_4.5_Converting_Tasks_xTaskDelayUntil.elf
+ 
+arm-none-eabi-size  Application_008_Example_4.5_Converting_Tasks_xTaskDelayUntil.elf 
+arm-none-eabi-objdump -h -S Application_008_Example_4.5_Converting_Tasks_xTaskDelayUntil.elf  > "Application_008_Example_4.5_Converting_Tasks_xTaskDelayUntil.list"
+   text	   data	    bss	    dec	    hex	filename
+  19152	     28	  78916	  98096	  17f30	Application_008_Example_4.5_Converting_Tasks_xTaskDelayUntil.elf
+Finished building: default.size.stdout
+ 
+Finished building: Application_008_Example_4.5_Converting_Tasks_xTaskDelayUntil.list
+ 
+
+20:08:20 Build Finished. 0 errors, 0 warnings. (took 721ms)
+

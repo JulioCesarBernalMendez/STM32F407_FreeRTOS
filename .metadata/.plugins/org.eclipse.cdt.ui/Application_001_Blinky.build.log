@@ -1,4 +1,4 @@
-21:17:35 **** Incremental Build of configuration Debug for project Application_001_Blinky ****
+20:08:12 **** Incremental Build of configuration Debug for project Application_001_Blinky ****
 make -j8 all 
 arm-none-eabi-size  Application_001_Blinky.elf 
    text	   data	    bss	    dec	    hex	filename
@@ -6,5 +6,5 @@ arm-none-eabi-size  Application_001_Blinky.elf
 Finished building: default.size.stdout
  
 
-21:17:35 Build Finished. 0 errors, 0 warnings. (took 516ms)
+20:08:12 Build Finished. 0 errors, 0 warnings. (took 308ms)
 
