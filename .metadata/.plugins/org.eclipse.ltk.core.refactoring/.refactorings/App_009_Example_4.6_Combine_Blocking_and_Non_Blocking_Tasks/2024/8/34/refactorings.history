@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;App_009_Example_4.6_Combine_Blocking_&amp;_Non_Blocking_Tasks/App_008_Example_4.5_Converting_Tasks_xTaskDelayUntil.ioc&apos; to &apos;App_009_Example_4.6_Combine_Blocking_&amp;_Non_Blocking_Tasks.ioc&apos;" description="Rename resource &apos;App_008_Example_4.5_Converting_Tasks_xTaskDelayUntil.ioc&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="App_008_Example_4.5_Converting_Tasks_xTaskDelayUntil.ioc" name="App_009_Example_4.6_Combine_Blocking_&amp;_Non_Blocking_Tasks.ioc" stamp="1724295748666" updateReferences="true"/>
+</session>

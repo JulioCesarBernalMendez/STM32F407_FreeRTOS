@@ -1,8 +1,10 @@
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
-configDescList=org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Application_008_Example_4.5_Converting_Tasks_xTaskDelayUntil
+configDescList=
 eclipse.preferences.version=1
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:App_009_Example_4.6_Combine_Blocking_and_Non_Blocking_Tasks/activeLaunchMode=debug
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:App_009_Example_4.6_Combine_Blocking_and_Non_Blocking_Tasks/activeLaunchTarget=null\:---
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Application_001_Blinky/activeLaunchMode=debug
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Application_001_Blinky/activeLaunchTarget=null\:---
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Application_002_2_Separate_Blinky_Tasks/activeLaunchMode=debug
@@ -17,6 +19,7 @@ org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Application_007_Example_4.4_Blo
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Application_008_Example_4.5_Converting_Tasks_vTaskDelayUntil/activeLaunchMode=debug
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Application_008_Example_4.5_Converting_Tasks_vTaskDelayUntil/activeLaunchTarget=null\:---
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Application_008_Example_4.5_Converting_Tasks_xTaskDelayUntil/activeLaunchMode=debug
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Application_008_Example_4.5_Converting_Tasks_xTaskDelayUntil/activeLaunchTarget=null\:---
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:FreeRTOS_STM32F407/activeLaunchMode=debug
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:FreeRTOS_STM32F407_Test/activeLaunchMode=run
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:FreeRTOS_STM32F407_Test/activeLaunchTarget=null\:---
