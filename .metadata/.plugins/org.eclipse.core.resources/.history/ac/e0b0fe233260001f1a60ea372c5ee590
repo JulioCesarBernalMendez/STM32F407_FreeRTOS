@@ -1,0 +1,20 @@
+Core/FreeRTOS/Source/portable/MemMang/heap_1.o: \
+ ../Core/FreeRTOS/Source/portable/MemMang/heap_1.c \
+ C:/Users/julio/Downloads/FreeRTOS_STM32F407/App_006_Example_4.3_Experimenting_Priorities/Core/FreeRTOS/Source/include/FreeRTOS.h \
+ C:/Users/julio/Downloads/FreeRTOS_STM32F407/App_006_Example_4.3_Experimenting_Priorities/Core/FreeRTOS/FreeRTOSConfig.h \
+ C:/Users/julio/Downloads/FreeRTOS_STM32F407/App_006_Example_4.3_Experimenting_Priorities/Core/FreeRTOS/Source/include/projdefs.h \
+ C:/Users/julio/Downloads/FreeRTOS_STM32F407/App_006_Example_4.3_Experimenting_Priorities/Core/FreeRTOS/Source/include/portable.h \
+ C:/Users/julio/Downloads/FreeRTOS_STM32F407/App_006_Example_4.3_Experimenting_Priorities/Core/FreeRTOS/Source/include/deprecated_definitions.h \
+ C:/Users/julio/Downloads/FreeRTOS_STM32F407/App_006_Example_4.3_Experimenting_Priorities/Core/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h \
+ C:/Users/julio/Downloads/FreeRTOS_STM32F407/App_006_Example_4.3_Experimenting_Priorities/Core/FreeRTOS/Source/include/mpu_wrappers.h \
+ C:/Users/julio/Downloads/FreeRTOS_STM32F407/App_006_Example_4.3_Experimenting_Priorities/Core/FreeRTOS/Source/include/task.h \
+ C:/Users/julio/Downloads/FreeRTOS_STM32F407/App_006_Example_4.3_Experimenting_Priorities/Core/FreeRTOS/Source/include/list.h
+C:/Users/julio/Downloads/FreeRTOS_STM32F407/App_006_Example_4.3_Experimenting_Priorities/Core/FreeRTOS/Source/include/FreeRTOS.h:
+C:/Users/julio/Downloads/FreeRTOS_STM32F407/App_006_Example_4.3_Experimenting_Priorities/Core/FreeRTOS/FreeRTOSConfig.h:
+C:/Users/julio/Downloads/FreeRTOS_STM32F407/App_006_Example_4.3_Experimenting_Priorities/Core/FreeRTOS/Source/include/projdefs.h:
+C:/Users/julio/Downloads/FreeRTOS_STM32F407/App_006_Example_4.3_Experimenting_Priorities/Core/FreeRTOS/Source/include/portable.h:
+C:/Users/julio/Downloads/FreeRTOS_STM32F407/App_006_Example_4.3_Experimenting_Priorities/Core/FreeRTOS/Source/include/deprecated_definitions.h:
+C:/Users/julio/Downloads/FreeRTOS_STM32F407/App_006_Example_4.3_Experimenting_Priorities/Core/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h:
+C:/Users/julio/Downloads/FreeRTOS_STM32F407/App_006_Example_4.3_Experimenting_Priorities/Core/FreeRTOS/Source/include/mpu_wrappers.h:
+C:/Users/julio/Downloads/FreeRTOS_STM32F407/App_006_Example_4.3_Experimenting_Priorities/Core/FreeRTOS/Source/include/task.h:
+C:/Users/julio/Downloads/FreeRTOS_STM32F407/App_006_Example_4.3_Experimenting_Priorities/Core/FreeRTOS/Source/include/list.h:
