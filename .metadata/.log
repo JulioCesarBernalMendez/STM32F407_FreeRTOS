@@ -7574,3 +7574,45 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64
 
 !ENTRY org.eclipse.cdt.core 1 0 2024-08-27 17:46:35.738
 !MESSAGE Indexed 'App_013_Example_5.1_Blocking_When_Receiving_From_Queue' (0 sources, 0 headers) in 0.001 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+!SESSION 2024-08-28 11:19:05.984 -----------------------------------------------
+eclipse.buildId=Version 1.15.1
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2024-08-28 11:19:34.496
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2024-08-28 11:19:34.505
+!MESSAGE Log4j2 initialized with config file C:\Users\julio\Downloads\FreeRTOS_STM32F407\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-08-28 11:19:43.248
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-08-28 11:21:12.028
+!MESSAGE Indexed 'App_013_Example_5.2_Block_When_Send_Queue_&_Send_Struct_Queue' (32 sources, 149 headers) in 5.77 sec: 15,354 declarations; 72,879 references; 2 unresolved inclusions; 230 syntax errors; 248 unresolved names (0.28%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-08-28 11:23:45.780
+!MESSAGE Indexed 'App_014_Example_5.2_Block_When_Send_Queue_&_Send_Struct_Queue' (0 sources, 0 headers) in 0.001 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-08-28 11:24:21.373
+!MESSAGE Indexed 'App_014_Example_5.2_Block_When_Send_Queue_and_Send_Struct_Queue' (32 sources, 149 headers) in 2.73 sec: 15,354 declarations; 72,879 references; 2 unresolved inclusions; 230 syntax errors; 248 unresolved names (0.28%)
+!SESSION 2024-08-28 11:32:25.134 -----------------------------------------------
+eclipse.buildId=Version 1.15.1
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.core.resources 2 10035 2024-08-28 11:32:33.396
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2024-08-28 11:33:04.731
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2024-08-28 11:33:04.747
+!MESSAGE Log4j2 initialized with config file C:\Users\julio\Downloads\FreeRTOS_STM32F407\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-08-28 11:33:17.692
+!MESSAGE Started RMI Server, listening on port 41337
