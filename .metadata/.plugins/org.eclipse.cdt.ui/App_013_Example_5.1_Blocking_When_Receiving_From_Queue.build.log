@@ -1,0 +1,10 @@
+19:39:40 **** Incremental Build of configuration Debug for project App_013_Example_5.1_Blocking_When_Receiving_From_Queue ****
+make -j8 all 
+arm-none-eabi-size  App_013_Example_5.1_Blocking_When_Receiving_From_Queue.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23960	    100	  79292	 103352	  193b8	App_013_Example_5.1_Blocking_When_Receiving_From_Queue.elf
+Finished building: default.size.stdout
+ 
+
+19:39:41 Build Finished. 0 errors, 0 warnings. (took 313ms)
+

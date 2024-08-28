@@ -1,7 +1,7 @@
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
-configDescList=org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:App_010_Example_4.7_Defining_Idle_Task_Hook_Function Debug
+configDescList=org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:App_010_Example_4.7_Defining_Idle_Task_Hook_Function Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:App_013_Example_5.1_Blocking_When_Receiving_From_Queue
 eclipse.preferences.version=1
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:App_009_Example_4.6_Combine_Blocking_and_Non_Blocking_Tasks/activeLaunchMode=debug
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:App_009_Example_4.6_Combine_Blocking_and_Non_Blocking_Tasks/activeLaunchTarget=null\:---

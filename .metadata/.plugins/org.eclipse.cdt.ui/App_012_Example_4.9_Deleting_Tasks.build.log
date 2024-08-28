@@ -1,16 +1,10 @@
-20:16:24 **** Incremental Build of configuration Debug for project App_012_Example_4.9_Deleting_Tasks ****
+19:39:30 **** Incremental Build of configuration Debug for project App_012_Example_4.9_Deleting_Tasks ****
 make -j8 all 
-arm-none-eabi-gcc -o "App_012_Example_4.9_Deleting_Tasks.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\julio\Downloads\FreeRTOS_STM32F407\App_012_Example_4.9_Deleting_Tasks\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="App_012_Example_4.9_Deleting_Tasks.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: App_012_Example_4.9_Deleting_Tasks.elf
- 
 arm-none-eabi-size  App_012_Example_4.9_Deleting_Tasks.elf 
-arm-none-eabi-objdump -h -S App_012_Example_4.9_Deleting_Tasks.elf  > "App_012_Example_4.9_Deleting_Tasks.list"
    text	   data	    bss	    dec	    hex	filename
   20512	     20	  78940	  99472	  18490	App_012_Example_4.9_Deleting_Tasks.elf
 Finished building: default.size.stdout
  
-Finished building: App_012_Example_4.9_Deleting_Tasks.list
- 
 
-20:16:25 Build Finished. 0 errors, 0 warnings. (took 841ms)
+19:39:30 Build Finished. 0 errors, 0 warnings. (took 307ms)
 

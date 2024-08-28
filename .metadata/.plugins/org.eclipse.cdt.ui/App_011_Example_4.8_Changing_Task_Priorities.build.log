@@ -1,4 +1,4 @@
-20:16:16 **** Incremental Build of configuration Debug for project App_011_Example_4.8_Changing_Task_Priorities ****
+19:39:29 **** Incremental Build of configuration Debug for project App_011_Example_4.8_Changing_Task_Priorities ****
 make -j8 all 
 arm-none-eabi-size  App_011_Example_4.8_Changing_Task_Priorities.elf 
    text	   data	    bss	    dec	    hex	filename
@@ -6,5 +6,5 @@ arm-none-eabi-size  App_011_Example_4.8_Changing_Task_Priorities.elf
 Finished building: default.size.stdout
  
 
-20:16:16 Build Finished. 0 errors, 0 warnings. (took 360ms)
+19:39:30 Build Finished. 0 errors, 0 warnings. (took 362ms)
 

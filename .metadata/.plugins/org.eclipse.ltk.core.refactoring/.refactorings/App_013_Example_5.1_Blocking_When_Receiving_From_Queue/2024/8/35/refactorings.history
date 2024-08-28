@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;App_013_Example_5.1_Blocking_When_Receiving_From_Queue/App_012_Example_4.9_Deleting_Tasks.ioc&apos; to &apos;App_013_Example_5.1_Blocking_When_Receiving_From_Queue.ioc&apos;" description="Rename resource &apos;App_012_Example_4.9_Deleting_Tasks.ioc&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="App_012_Example_4.9_Deleting_Tasks.ioc" name="App_013_Example_5.1_Blocking_When_Receiving_From_Queue.ioc" stamp="1724802475991" updateReferences="true"/>
+</session>
