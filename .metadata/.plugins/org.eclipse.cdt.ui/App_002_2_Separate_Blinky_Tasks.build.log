@@ -1,4 +1,4 @@
-19:39:25 **** Incremental Build of configuration Debug for project App_002_2_Separate_Blinky_Tasks ****
+14:11:14 **** Incremental Build of configuration Debug for project App_002_2_Separate_Blinky_Tasks ****
 make -j8 all 
 arm-none-eabi-size  App_002_2_Separate_Blinky_Tasks.elf 
    text	   data	    bss	    dec	    hex	filename
@@ -6,5 +6,5 @@ arm-none-eabi-size  App_002_2_Separate_Blinky_Tasks.elf
 Finished building: default.size.stdout
  
 
-19:39:25 Build Finished. 0 errors, 0 warnings. (took 369ms)
+14:11:15 Build Finished. 0 errors, 0 warnings. (took 539ms)
 
