@@ -19,8 +19,8 @@
 
 /**
  * @author  Julio Cesar Bernal Mendez
- * @brief   This is the "Example 5.1 Blockin when receiving from a queue" from the Mastering the FreeRTOS
- *          Real Time Kernel v1.0 document.
+ * @brief   This is the "Example 5.2 Blocking when sending to a queue, and sending structures on a queue"
+ *          from the Mastering the FreeRTOS Real Time Kernel v1.0 document.
  *          
  *          This examples demonstrates creating a queue, sending data to the queue from multiple tasks,
  *          and receiving data from the queue.
