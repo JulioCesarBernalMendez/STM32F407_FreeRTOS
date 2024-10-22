@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "task.h": "c",
+        "errno.h": "c",
+        "queue.h": "c",
+        "string.h": "c",
+        "freertos.h": "c",
+        "timers.h": "c"
+    }
+}
