@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;App_017_Example_5.Y_Mailbox_Queue/App_016_Example_5.X_Pointer_To_Queue.ioc&apos; to &apos;App_017_Example_5.Y_Mailbox_Queue.ioc&apos;" description="Rename resource &apos;App_016_Example_5.X_Pointer_To_Queue.ioc&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="App_016_Example_5.X_Pointer_To_Queue.ioc" name="App_017_Example_5.Y_Mailbox_Queue.ioc" stamp="1729703706903" updateReferences="true"/>
+</session>

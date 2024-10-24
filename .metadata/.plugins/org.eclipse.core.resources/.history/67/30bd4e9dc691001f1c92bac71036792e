@@ -1,0 +1,22 @@
+Core/FreeRTOS/Source/stream_buffer.o: \
+ ../Core/FreeRTOS/Source/stream_buffer.c \
+ C:/Users/julio/Downloads/FreeRTOS_STM32F407/App_014_Example_5.2_Block_When_Send_Queue_and_Send_Struct_Queue/Core/FreeRTOS/Source/include/FreeRTOS.h \
+ C:/Users/julio/Downloads/FreeRTOS_STM32F407/App_014_Example_5.2_Block_When_Send_Queue_and_Send_Struct_Queue/Core/FreeRTOS/FreeRTOSConfig.h \
+ C:/Users/julio/Downloads/FreeRTOS_STM32F407/App_014_Example_5.2_Block_When_Send_Queue_and_Send_Struct_Queue/Core/FreeRTOS/Source/include/projdefs.h \
+ C:/Users/julio/Downloads/FreeRTOS_STM32F407/App_014_Example_5.2_Block_When_Send_Queue_and_Send_Struct_Queue/Core/FreeRTOS/Source/include/portable.h \
+ C:/Users/julio/Downloads/FreeRTOS_STM32F407/App_014_Example_5.2_Block_When_Send_Queue_and_Send_Struct_Queue/Core/FreeRTOS/Source/include/deprecated_definitions.h \
+ C:/Users/julio/Downloads/FreeRTOS_STM32F407/App_014_Example_5.2_Block_When_Send_Queue_and_Send_Struct_Queue/Core/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h \
+ C:/Users/julio/Downloads/FreeRTOS_STM32F407/App_014_Example_5.2_Block_When_Send_Queue_and_Send_Struct_Queue/Core/FreeRTOS/Source/include/mpu_wrappers.h \
+ C:/Users/julio/Downloads/FreeRTOS_STM32F407/App_014_Example_5.2_Block_When_Send_Queue_and_Send_Struct_Queue/Core/FreeRTOS/Source/include/task.h \
+ C:/Users/julio/Downloads/FreeRTOS_STM32F407/App_014_Example_5.2_Block_When_Send_Queue_and_Send_Struct_Queue/Core/FreeRTOS/Source/include/list.h \
+ C:/Users/julio/Downloads/FreeRTOS_STM32F407/App_014_Example_5.2_Block_When_Send_Queue_and_Send_Struct_Queue/Core/FreeRTOS/Source/include/stream_buffer.h
+C:/Users/julio/Downloads/FreeRTOS_STM32F407/App_014_Example_5.2_Block_When_Send_Queue_and_Send_Struct_Queue/Core/FreeRTOS/Source/include/FreeRTOS.h:
+C:/Users/julio/Downloads/FreeRTOS_STM32F407/App_014_Example_5.2_Block_When_Send_Queue_and_Send_Struct_Queue/Core/FreeRTOS/FreeRTOSConfig.h:
+C:/Users/julio/Downloads/FreeRTOS_STM32F407/App_014_Example_5.2_Block_When_Send_Queue_and_Send_Struct_Queue/Core/FreeRTOS/Source/include/projdefs.h:
+C:/Users/julio/Downloads/FreeRTOS_STM32F407/App_014_Example_5.2_Block_When_Send_Queue_and_Send_Struct_Queue/Core/FreeRTOS/Source/include/portable.h:
+C:/Users/julio/Downloads/FreeRTOS_STM32F407/App_014_Example_5.2_Block_When_Send_Queue_and_Send_Struct_Queue/Core/FreeRTOS/Source/include/deprecated_definitions.h:
+C:/Users/julio/Downloads/FreeRTOS_STM32F407/App_014_Example_5.2_Block_When_Send_Queue_and_Send_Struct_Queue/Core/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h:
+C:/Users/julio/Downloads/FreeRTOS_STM32F407/App_014_Example_5.2_Block_When_Send_Queue_and_Send_Struct_Queue/Core/FreeRTOS/Source/include/mpu_wrappers.h:
+C:/Users/julio/Downloads/FreeRTOS_STM32F407/App_014_Example_5.2_Block_When_Send_Queue_and_Send_Struct_Queue/Core/FreeRTOS/Source/include/task.h:
+C:/Users/julio/Downloads/FreeRTOS_STM32F407/App_014_Example_5.2_Block_When_Send_Queue_and_Send_Struct_Queue/Core/FreeRTOS/Source/include/list.h:
+C:/Users/julio/Downloads/FreeRTOS_STM32F407/App_014_Example_5.2_Block_When_Send_Queue_and_Send_Struct_Queue/Core/FreeRTOS/Source/include/stream_buffer.h:
