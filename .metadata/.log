@@ -9241,3 +9241,52 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64
 
 !ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-10-31 15:00:02.066
 !MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2024-11-01 10:05:30.076 -----------------------------------------------
+eclipse.buildId=Version 1.15.1
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2024-11-01 10:06:08.181
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2024-11-01 10:06:08.194
+!MESSAGE Log4j2 initialized with config file C:\Users\julio\Downloads\FreeRTOS_STM32F407\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-11-01 10:06:23.009
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-11-01 10:07:27.857
+!MESSAGE Indexed 'App_019_Example_6.2_Use_Callback_Function_Param_and_SW_Timer_ID' (32 sources, 149 headers) in 11.4 sec: 15,353 declarations; 72,364 references; 9 unresolved inclusions; 230 syntax errors; 793 unresolved names (0.9%)
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 104 2024-11-01 10:09:55.291
+!MESSAGE Program file does not exist
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 104 2024-11-01 10:09:55.292
+!MESSAGE 
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 104 2024-11-01 10:10:09.261
+!MESSAGE Program file does not exist
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 104 2024-11-01 10:10:09.261
+!MESSAGE 
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.launch 2 0 2024-11-01 10:10:49.857
+!MESSAGE Won't launch debug session since we failed to locate the binary.
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.launch 2 0 2024-11-01 10:11:01.684
+!MESSAGE Won't launch debug session since we failed to locate the binary.
+!SESSION 2024-11-01 10:11:12.440 -----------------------------------------------
+eclipse.buildId=Version 1.15.1
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2024-11-01 10:11:24.769
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2024-11-01 10:11:24.771
+!MESSAGE Log4j2 initialized with config file C:\Users\julio\Downloads\FreeRTOS_STM32F407\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-11-01 10:11:38.247
+!MESSAGE Started RMI Server, listening on port 41337
