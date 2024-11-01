@@ -1,4 +1,4 @@
-15:46:27 **** Incremental Build of configuration Debug for project App_004_Example_4.1_Creating_Tasks_v2 ****
+11:40:50 **** Build of configuration Debug for project App_004_Example_4.1_Creating_Tasks_v2 ****
 make -j8 all 
 arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I"C:/Users/julio/Downloads/FreeRTOS_STM32F407/App_004_Example_4.1_Creating_Tasks_v2/Core/FreeRTOS" -I"C:/Users/julio/Downloads/FreeRTOS_STM32F407/App_004_Example_4.1_Creating_Tasks_v2/Core/FreeRTOS/Source/include" -I"C:/Users/julio/Downloads/FreeRTOS_STM32F407/App_004_Example_4.1_Creating_Tasks_v2/Core/FreeRTOS/Source/portable/GCC/ARM_CM4F" -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o"
 arm-none-eabi-gcc "../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I"C:/Users/julio/Downloads/FreeRTOS_STM32F407/App_004_Example_4.1_Creating_Tasks_v2/Core/FreeRTOS" -I"C:/Users/julio/Downloads/FreeRTOS_STM32F407/App_004_Example_4.1_Creating_Tasks_v2/Core/FreeRTOS/Source/include" -I"C:/Users/julio/Downloads/FreeRTOS_STM32F407/App_004_Example_4.1_Creating_Tasks_v2/Core/FreeRTOS/Source/portable/GCC/ARM_CM4F" -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.d" -MT"Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o"
@@ -45,5 +45,5 @@ Finished building: default.size.stdout
 Finished building: App_004_Example_4.1_Creating_Tasks_v2.list
  
 
-15:46:33 Build Finished. 0 errors, 0 warnings. (took 6s.123ms)
+11:40:58 Build Finished. 0 errors, 0 warnings. (took 8s.111ms)
 
