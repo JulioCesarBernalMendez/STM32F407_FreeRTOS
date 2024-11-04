@@ -1,21 +1,21 @@
-12:25:10 **** Incremental Build of configuration Debug for project App_019_Example_6.2_Use_Callback_Function_Param_and_SW_Timer_ID ****
+13:57:07 **** Incremental Build of configuration Debug for project App_020_Example_6.3_Resetting_a_Software_Timer ****
 make -j8 all 
-arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I"C:/Users/julio/Downloads/FreeRTOS_STM32F407/App_019_Example_6.2_Use_Callback_Function_Param_and_SW_Timer_ID/Core/FreeRTOS" -I"C:/Users/julio/Downloads/FreeRTOS_STM32F407/App_019_Example_6.2_Use_Callback_Function_Param_and_SW_Timer_ID/Core/FreeRTOS/Source/include" -I"C:/Users/julio/Downloads/FreeRTOS_STM32F407/App_019_Example_6.2_Use_Callback_Function_Param_and_SW_Timer_ID/Core/FreeRTOS/Source/portable/GCC/ARM_CM4F" -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
-arm-none-eabi-gcc -o "App_019_Example_6.2_Use_Callback_Function_Param_and_SW_Timer_ID.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\julio\Downloads\FreeRTOS_STM32F407\App_019_Example_6.2_Use_Callback_Function_Param_and_SW_Timer_ID\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="App_019_Example_6.2_Use_Callback_Function_Param_and_SW_Timer_ID.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: App_019_Example_6.2_Use_Callback_Function_Param_and_SW_Timer_ID.elf
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I"C:/Users/julio/Downloads/FreeRTOS_STM32F407/App_020_Example_6.3_Resetting_a_Software_Timer/Core/FreeRTOS" -I"C:/Users/julio/Downloads/FreeRTOS_STM32F407/App_020_Example_6.3_Resetting_a_Software_Timer/Core/FreeRTOS/Source/include" -I"C:/Users/julio/Downloads/FreeRTOS_STM32F407/App_020_Example_6.3_Resetting_a_Software_Timer/Core/FreeRTOS/Source/portable/GCC/ARM_CM4F" -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "App_020_Example_6.3_Resetting_a_Software_Timer.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\julio\Downloads\FreeRTOS_STM32F407\App_020_Example_6.3_Resetting_a_Software_Timer\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="App_020_Example_6.3_Resetting_a_Software_Timer.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: App_020_Example_6.3_Resetting_a_Software_Timer.elf
  
-arm-none-eabi-size  App_019_Example_6.2_Use_Callback_Function_Param_and_SW_Timer_ID.elf 
-arm-none-eabi-objdump -h -S App_019_Example_6.2_Use_Callback_Function_Param_and_SW_Timer_ID.elf  > "App_019_Example_6.2_Use_Callback_Function_Param_and_SW_Timer_ID.list"
+arm-none-eabi-size  App_020_Example_6.3_Resetting_a_Software_Timer.elf 
+arm-none-eabi-objdump -h -S App_020_Example_6.3_Resetting_a_Software_Timer.elf  > "App_020_Example_6.3_Resetting_a_Software_Timer.list"
    text	   data	    bss	    dec	    hex	filename
-  24396	    100	  79332	 103828	  19594	App_019_Example_6.2_Use_Callback_Function_Param_and_SW_Timer_ID.elf
+  24600	    100	  79348	 104048	  19670	App_020_Example_6.3_Resetting_a_Software_Timer.elf
 Finished building: default.size.stdout
  
-Finished building: App_019_Example_6.2_Use_Callback_Function_Param_and_SW_Timer_ID.list
+Finished building: App_020_Example_6.3_Resetting_a_Software_Timer.list
  
-12:25:29 **** Incremental Build of configuration Debug for project App_019_Example_6.2_Use_Callback_Function_Param_and_SW_Timer_ID ****
+13:57:29 **** Incremental Build of configuration Debug for project App_020_Example_6.3_Resetting_a_Software_Timer ****
 make -j8 all 
-arm-none-eabi-size  App_019_Example_6.2_Use_Callback_Function_Param_and_SW_Timer_ID.elf 
+arm-none-eabi-size  App_020_Example_6.3_Resetting_a_Software_Timer.elf 
    text	   data	    bss	    dec	    hex	filename
-  24396	    100	  79332	 103828	  19594	App_019_Example_6.2_Use_Callback_Function_Param_and_SW_Timer_ID.elf
+  24600	    100	  79348	 104048	  19670	App_020_Example_6.3_Resetting_a_Software_Timer.elf
 Finished building: default.size.stdout
  

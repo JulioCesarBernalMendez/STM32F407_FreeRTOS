@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;App_020_Example_6.3_Resetting_a_Software_Timer/App_019_Example_6.2_Use_Callback_Function_Param_and_SW_Timer_ID.ioc&apos; to &apos;App_020_Example_6.3_Resetting_a_Software_Timer.ioc&apos;" description="Rename resource &apos;App_019_Example_6.2_Use_Callback_Function_Param_and_SW_Timer_ID.ioc&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="App_019_Example_6.2_Use_Callback_Function_Param_and_SW_Timer_ID.ioc" name="App_020_Example_6.3_Resetting_a_Software_Timer.ioc" stamp="1730588473501" updateReferences="true"/>
+</session>
