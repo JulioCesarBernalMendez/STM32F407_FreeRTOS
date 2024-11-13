@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;App_021_Example_6.4_Binary_Semaphore_Synch_Task_With_Interrupt/App_020_Example_6.3_Resetting_a_Software_Timer.ioc&apos; to &apos;App_021_Example_6.4_Binary_Semaphore_Synch_Task_With_Interrupt.ioc&apos;" description="Rename resource &apos;App_020_Example_6.3_Resetting_a_Software_Timer.ioc&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="App_020_Example_6.3_Resetting_a_Software_Timer.ioc" name="App_021_Example_6.4_Binary_Semaphore_Synch_Task_With_Interrupt.ioc" stamp="1731353240835" updateReferences="true"/>
+</session>

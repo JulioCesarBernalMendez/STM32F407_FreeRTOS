@@ -1,4 +1,4 @@
-12:36:39 **** Incremental Build of configuration Debug for project App_003_Example_4.1_Creating_Tasks_v1 ****
+19:18:21 **** Incremental Build of configuration Debug for project App_003_Example_4.1_Creating_Tasks_v1 ****
 make -j8 all 
 arm-none-eabi-size  App_003_Example_4.1_Creating_Tasks_v1.elf 
    text	   data	    bss	    dec	    hex	filename
@@ -6,5 +6,5 @@ arm-none-eabi-size  App_003_Example_4.1_Creating_Tasks_v1.elf
 Finished building: default.size.stdout
  
 
-12:36:40 Build Finished. 0 errors, 0 warnings. (took 1s.41ms)
+19:18:21 Build Finished. 0 errors, 0 warnings. (took 569ms)
 

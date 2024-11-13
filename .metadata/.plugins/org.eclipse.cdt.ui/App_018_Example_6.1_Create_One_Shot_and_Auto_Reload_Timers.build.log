@@ -1,4 +1,4 @@
-12:37:09 **** Incremental Build of configuration Debug for project App_018_Example_6.1_Create_One_Shot_and_Auto_Reload_Timers ****
+19:18:31 **** Incremental Build of configuration Debug for project App_018_Example_6.1_Create_One_Shot_and_Auto_Reload_Timers ****
 make -j8 all 
 arm-none-eabi-size  App_018_Example_6.1_Create_One_Shot_and_Auto_Reload_Timers.elf 
    text	   data	    bss	    dec	    hex	filename
@@ -6,5 +6,5 @@ arm-none-eabi-size  App_018_Example_6.1_Create_One_Shot_and_Auto_Reload_Timers.e
 Finished building: default.size.stdout
  
 
-12:37:10 Build Finished. 0 errors, 0 warnings. (took 781ms)
+19:18:31 Build Finished. 0 errors, 0 warnings. (took 452ms)
 

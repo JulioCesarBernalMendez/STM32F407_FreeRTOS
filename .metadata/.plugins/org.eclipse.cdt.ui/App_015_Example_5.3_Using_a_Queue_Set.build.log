@@ -1,4 +1,4 @@
-12:36:55 **** Incremental Build of configuration Debug for project App_015_Example_5.3_Using_a_Queue_Set ****
+19:18:29 **** Incremental Build of configuration Debug for project App_015_Example_5.3_Using_a_Queue_Set ****
 make -j8 all 
 arm-none-eabi-size  App_015_Example_5.3_Using_a_Queue_Set.elf 
    text	   data	    bss	    dec	    hex	filename
@@ -6,5 +6,5 @@ arm-none-eabi-size  App_015_Example_5.3_Using_a_Queue_Set.elf
 Finished building: default.size.stdout
  
 
-12:36:56 Build Finished. 0 errors, 0 warnings. (took 806ms)
+19:18:29 Build Finished. 0 errors, 0 warnings. (took 406ms)
 

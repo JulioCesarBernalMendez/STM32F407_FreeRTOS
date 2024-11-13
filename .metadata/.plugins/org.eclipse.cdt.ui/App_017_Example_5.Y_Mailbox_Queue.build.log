@@ -1,4 +1,4 @@
-12:37:08 **** Incremental Build of configuration Debug for project App_017_Example_5.Y_Mailbox_Queue ****
+19:18:30 **** Incremental Build of configuration Debug for project App_017_Example_5.Y_Mailbox_Queue ****
 make -j8 all 
 arm-none-eabi-size  App_017_Example_5.Y_Mailbox_Queue.elf 
    text	   data	    bss	    dec	    hex	filename
@@ -6,5 +6,5 @@ arm-none-eabi-size  App_017_Example_5.Y_Mailbox_Queue.elf
 Finished building: default.size.stdout
  
 
-12:37:08 Build Finished. 0 errors, 0 warnings. (took 735ms)
+19:18:31 Build Finished. 0 errors, 0 warnings. (took 462ms)
 
