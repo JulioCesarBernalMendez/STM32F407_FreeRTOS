@@ -1,0 +1,10 @@
+07:48:39 **** Incremental Build of configuration Debug for project App_021_Example_6.4_Binary_Semaphore_Synch_Task_With_Interrupt ****
+make -j8 all 
+arm-none-eabi-size  App_021_Example_6.4_Binary_Semaphore_Synch_Task_With_Interrupt.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23164	     20	  79012	 102196	  18f34	App_021_Example_6.4_Binary_Semaphore_Synch_Task_With_Interrupt.elf
+Finished building: default.size.stdout
+ 
+
+07:48:40 Build Finished. 0 errors, 0 warnings. (took 608ms)
+

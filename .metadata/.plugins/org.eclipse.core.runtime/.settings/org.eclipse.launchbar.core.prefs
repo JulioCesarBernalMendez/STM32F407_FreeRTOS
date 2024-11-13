@@ -18,6 +18,8 @@ org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:App_019_Example_6.2_Use_Callbac
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:App_019_Example_6.2_Use_Callback_Function_Param_and_SW_Timer_ID/activeLaunchTarget=null\:---
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:App_020_Example_6.3_Resetting_a_Software_Timer/activeLaunchMode=debug
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:App_020_Example_6.3_Resetting_a_Software_Timer/activeLaunchTarget=null\:---
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:App_021_Example_6.4_Binary_Semaphore_Synch_Task_With_Interrupt/activeLaunchMode=debug
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:App_021_Example_6.4_Binary_Semaphore_Synch_Task_With_Interrupt/activeLaunchTarget=null\:---
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Application_001_Blinky/activeLaunchMode=debug
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Application_001_Blinky/activeLaunchTarget=null\:---
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Application_002_2_Separate_Blinky_Tasks/activeLaunchMode=debug

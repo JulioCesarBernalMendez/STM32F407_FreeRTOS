@@ -1,4 +1,4 @@
-13:57:29 **** Incremental Build of configuration Debug for project App_020_Example_6.3_Resetting_a_Software_Timer ****
+19:18:39 **** Incremental Build of configuration Debug for project App_020_Example_6.3_Resetting_a_Software_Timer ****
 make -j8 all 
 arm-none-eabi-size  App_020_Example_6.3_Resetting_a_Software_Timer.elf 
    text	   data	    bss	    dec	    hex	filename
@@ -6,5 +6,5 @@ arm-none-eabi-size  App_020_Example_6.3_Resetting_a_Software_Timer.elf
 Finished building: default.size.stdout
  
 
-13:57:29 Build Finished. 0 errors, 0 warnings. (took 301ms)
+19:18:39 Build Finished. 0 errors, 0 warnings. (took 482ms)
 

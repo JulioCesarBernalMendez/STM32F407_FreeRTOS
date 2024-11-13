@@ -1,13 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item key="selection" value="xQueueOverwrite"/>
+		<item key="selection" value="TIM3_Init"/>
 		<item key="wrap" value="true"/>
 		<item key="casesensitive" value="false"/>
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
+			<item value="TIM3_Init"/>
+			<item value="MX_GPIO_Init"/>
+			<item value="callback"/>
+			<item value="xTimerGenericCommandFromISR"/>
+			<item value="traceENTER_xTimerGenericCommandFromISR"/>
 			<item value="xqueueoverwrite"/>
 			<item value="comp_active_start"/>
 			<item value="active_ctor"/>
@@ -18,8 +23,6 @@
 			<item value="hello world"/>
 			<item value="tas"/>
 			<item value="LED_Task"/>
-			<item value="GPIO_PIN_15"/>
-			<item value="led_task"/>
 		</list>
 		<list key="replacehistory">
 		</list>

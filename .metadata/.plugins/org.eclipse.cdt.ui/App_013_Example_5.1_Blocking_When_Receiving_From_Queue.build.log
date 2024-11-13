@@ -1,4 +1,4 @@
-12:36:52 **** Incremental Build of configuration Debug for project App_013_Example_5.1_Blocking_When_Receiving_From_Queue ****
+19:18:28 **** Incremental Build of configuration Debug for project App_013_Example_5.1_Blocking_When_Receiving_From_Queue ****
 make -j8 all 
 arm-none-eabi-size  App_013_Example_5.1_Blocking_When_Receiving_From_Queue.elf 
    text	   data	    bss	    dec	    hex	filename
@@ -6,5 +6,5 @@ arm-none-eabi-size  App_013_Example_5.1_Blocking_When_Receiving_From_Queue.elf
 Finished building: default.size.stdout
  
 
-12:36:53 Build Finished. 0 errors, 0 warnings. (took 977ms)
+19:18:28 Build Finished. 0 errors, 0 warnings. (took 462ms)
 

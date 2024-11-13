@@ -1,0 +1,74 @@
+2024-11-13 00:00:50,181 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 898580896 Bytes (1073741824)
+2024-11-13 00:00:53,319 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 731906048 Bytes (1073741824)
+2024-11-13 00:00:53,849 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM1_8
+2024-11-13 00:00:53,850 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2024-11-13 00:00:53,850 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2024-11-13 00:00:53,850 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2024-11-13 00:00:53,850 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2024-11-13 00:00:53,851 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2024-11-13 00:00:53,853 [INFO] CodeGenerator:807 - code generatio: config db path: C:\ST\STM32CubeIDE_1.11.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.11.1.202404110753\\db\
+2024-11-13 00:00:54,054 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\julio\Downloads\FreeRTOS_STM32F407\App_021_Example_6.4_Binary_Semaphore_Synch_Task_With_Interrupt\MXTmpFiles\license.tmp_save
+2024-11-13 00:00:54,408 [INFO] CodeEngine:279 - Generated code: C:\Users\julio\Downloads\FreeRTOS_STM32F407\App_021_Example_6.4_Binary_Semaphore_Synch_Task_With_Interrupt\MXTmpFiles\license.tmp
+2024-11-13 00:00:54,477 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\julio\Downloads\FreeRTOS_STM32F407\App_021_Example_6.4_Binary_Semaphore_Synch_Task_With_Interrupt\MXTmpFiles\gpio.tmp_save
+2024-11-13 00:00:54,846 [INFO] CodeEngine:279 - Generated code: C:\Users\julio\Downloads\FreeRTOS_STM32F407\App_021_Example_6.4_Binary_Semaphore_Synch_Task_With_Interrupt\MXTmpFiles\gpio.tmp
+2024-11-13 00:00:55,159 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\julio\Downloads\FreeRTOS_STM32F407\App_021_Example_6.4_Binary_Semaphore_Synch_Task_With_Interrupt\Core\Src\stm32f4xx_it.c_save
+2024-11-13 00:00:55,819 [INFO] CodeEngine:279 - Generated code: C:\Users\julio\Downloads\FreeRTOS_STM32F407\App_021_Example_6.4_Binary_Semaphore_Synch_Task_With_Interrupt\Core\Src\stm32f4xx_it.c
+2024-11-13 00:00:55,856 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\julio\Downloads\FreeRTOS_STM32F407\App_021_Example_6.4_Binary_Semaphore_Synch_Task_With_Interrupt\Core\Inc\stm32f4xx_it.h_save
+2024-11-13 00:00:56,047 [INFO] CodeEngine:279 - Generated code: C:\Users\julio\Downloads\FreeRTOS_STM32F407\App_021_Example_6.4_Binary_Semaphore_Synch_Task_With_Interrupt\Core\Inc\stm32f4xx_it.h
+2024-11-13 00:00:56,111 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\julio\Downloads\FreeRTOS_STM32F407\App_021_Example_6.4_Binary_Semaphore_Synch_Task_With_Interrupt\Core\Src\stm32f4xx_hal_msp.c_save
+2024-11-13 00:00:56,372 [INFO] CodeEngine:279 - Generated code: C:\Users\julio\Downloads\FreeRTOS_STM32F407\App_021_Example_6.4_Binary_Semaphore_Synch_Task_With_Interrupt\Core\Src\stm32f4xx_hal_msp.c
+2024-11-13 00:00:56,388 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\julio\Downloads\FreeRTOS_STM32F407\App_021_Example_6.4_Binary_Semaphore_Synch_Task_With_Interrupt\MXTmpFiles\system.tmp_save
+2024-11-13 00:00:56,563 [INFO] CodeEngine:279 - Generated code: C:\Users\julio\Downloads\FreeRTOS_STM32F407\App_021_Example_6.4_Binary_Semaphore_Synch_Task_With_Interrupt\MXTmpFiles\system.tmp
+2024-11-13 00:00:56,605 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\julio\Downloads\FreeRTOS_STM32F407\App_021_Example_6.4_Binary_Semaphore_Synch_Task_With_Interrupt\Core\Src\stm32f4xx_hal_timebase_tim.c_save
+2024-11-13 00:00:56,773 [INFO] CodeEngine:279 - Generated code: C:\Users\julio\Downloads\FreeRTOS_STM32F407\App_021_Example_6.4_Binary_Semaphore_Synch_Task_With_Interrupt\Core\Src\stm32f4xx_hal_timebase_tim.c
+2024-11-13 00:00:56,823 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\julio\Downloads\FreeRTOS_STM32F407\App_021_Example_6.4_Binary_Semaphore_Synch_Task_With_Interrupt\Core\Inc\stm32f4xx_hal_conf.h_save
+2024-11-13 00:00:56,995 [INFO] CodeEngine:335 - Generated code: C:\Users\julio\Downloads\FreeRTOS_STM32F407\App_021_Example_6.4_Binary_Semaphore_Synch_Task_With_Interrupt\Core\Inc\stm32f4xx_hal_conf.h
+2024-11-13 00:00:57,044 [WARN] IPConfigManager:3513 - IP not found : TIM
+2024-11-13 00:00:57,045 [WARN] CodeGenerator:3951 - IP not found : null
+2024-11-13 00:00:57,094 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\julio\Downloads\FreeRTOS_STM32F407\App_021_Example_6.4_Binary_Semaphore_Synch_Task_With_Interrupt\Core\Inc\main.h_save
+2024-11-13 00:00:57,260 [INFO] CodeEngine:279 - Generated code: C:\Users\julio\Downloads\FreeRTOS_STM32F407\App_021_Example_6.4_Binary_Semaphore_Synch_Task_With_Interrupt\Core\Inc\main.h
+2024-11-13 00:00:57,302 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\julio\Downloads\FreeRTOS_STM32F407\App_021_Example_6.4_Binary_Semaphore_Synch_Task_With_Interrupt\Core\Src\main.c_save
+2024-11-13 00:00:57,539 [INFO] CodeEngine:279 - Generated code: C:\Users\julio\Downloads\FreeRTOS_STM32F407\App_021_Example_6.4_Binary_Semaphore_Synch_Task_With_Interrupt\Core\Src\main.c
+2024-11-13 00:00:58,242 [INFO] ProjectBuilder:3163 - Time for Copy HAL[1] : 402mS.
+2024-11-13 00:00:58,251 [INFO] ProjectBuilder:4736 - Project Generator version: 4.3.0-B58
+2024-11-13 00:00:58,410 [INFO] ConfigFileManager:1503 - The Die is : DIE413
+2024-11-13 00:01:00,817 [INFO] ProjectBuilder:5002 - Time for Generating toolchain IDE Files: 2566mS.
+2024-11-13 00:01:00,818 [INFO] ProjectBuilder:3034 - Time for Copy CMSIS : 1mS.
+2024-11-13 00:01:00,829 [INFO] ProjectBuilder:3034 - Time for Copy CMSIS : 0mS.
+2024-11-13 00:01:41,748 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 825404528 Bytes (1073741824)
+2024-11-13 00:01:44,550 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 779329216 Bytes (1073741824)
+2024-11-13 00:01:45,025 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM1_8
+2024-11-13 00:01:45,026 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2024-11-13 00:01:45,026 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2024-11-13 00:01:45,026 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2024-11-13 00:01:45,026 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2024-11-13 00:01:45,027 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2024-11-13 00:01:45,029 [INFO] CodeGenerator:807 - code generatio: config db path: C:\ST\STM32CubeIDE_1.11.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.11.1.202404110753\\db\
+2024-11-13 00:01:45,203 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\julio\Downloads\FreeRTOS_STM32F407\App_021_Example_6.4_Binary_Semaphore_Synch_Task_With_Interrupt\MXTmpFiles\license.tmp_save
+2024-11-13 00:01:45,406 [INFO] CodeEngine:279 - Generated code: C:\Users\julio\Downloads\FreeRTOS_STM32F407\App_021_Example_6.4_Binary_Semaphore_Synch_Task_With_Interrupt\MXTmpFiles\license.tmp
+2024-11-13 00:01:45,448 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\julio\Downloads\FreeRTOS_STM32F407\App_021_Example_6.4_Binary_Semaphore_Synch_Task_With_Interrupt\MXTmpFiles\gpio.tmp_save
+2024-11-13 00:01:45,654 [INFO] CodeEngine:279 - Generated code: C:\Users\julio\Downloads\FreeRTOS_STM32F407\App_021_Example_6.4_Binary_Semaphore_Synch_Task_With_Interrupt\MXTmpFiles\gpio.tmp
+2024-11-13 00:01:45,875 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\julio\Downloads\FreeRTOS_STM32F407\App_021_Example_6.4_Binary_Semaphore_Synch_Task_With_Interrupt\Core\Src\stm32f4xx_it.c_save
+2024-11-13 00:01:46,087 [INFO] CodeEngine:279 - Generated code: C:\Users\julio\Downloads\FreeRTOS_STM32F407\App_021_Example_6.4_Binary_Semaphore_Synch_Task_With_Interrupt\Core\Src\stm32f4xx_it.c
+2024-11-13 00:01:46,098 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\julio\Downloads\FreeRTOS_STM32F407\App_021_Example_6.4_Binary_Semaphore_Synch_Task_With_Interrupt\Core\Inc\stm32f4xx_it.h_save
+2024-11-13 00:01:46,239 [INFO] CodeEngine:279 - Generated code: C:\Users\julio\Downloads\FreeRTOS_STM32F407\App_021_Example_6.4_Binary_Semaphore_Synch_Task_With_Interrupt\Core\Inc\stm32f4xx_it.h
+2024-11-13 00:01:46,288 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\julio\Downloads\FreeRTOS_STM32F407\App_021_Example_6.4_Binary_Semaphore_Synch_Task_With_Interrupt\Core\Src\stm32f4xx_hal_msp.c_save
+2024-11-13 00:01:46,516 [INFO] CodeEngine:279 - Generated code: C:\Users\julio\Downloads\FreeRTOS_STM32F407\App_021_Example_6.4_Binary_Semaphore_Synch_Task_With_Interrupt\Core\Src\stm32f4xx_hal_msp.c
+2024-11-13 00:01:46,531 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\julio\Downloads\FreeRTOS_STM32F407\App_021_Example_6.4_Binary_Semaphore_Synch_Task_With_Interrupt\MXTmpFiles\system.tmp_save
+2024-11-13 00:01:46,611 [INFO] CodeEngine:279 - Generated code: C:\Users\julio\Downloads\FreeRTOS_STM32F407\App_021_Example_6.4_Binary_Semaphore_Synch_Task_With_Interrupt\MXTmpFiles\system.tmp
+2024-11-13 00:01:46,637 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\julio\Downloads\FreeRTOS_STM32F407\App_021_Example_6.4_Binary_Semaphore_Synch_Task_With_Interrupt\Core\Src\stm32f4xx_hal_timebase_tim.c_save
+2024-11-13 00:01:46,787 [INFO] CodeEngine:279 - Generated code: C:\Users\julio\Downloads\FreeRTOS_STM32F407\App_021_Example_6.4_Binary_Semaphore_Synch_Task_With_Interrupt\Core\Src\stm32f4xx_hal_timebase_tim.c
+2024-11-13 00:01:46,828 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\julio\Downloads\FreeRTOS_STM32F407\App_021_Example_6.4_Binary_Semaphore_Synch_Task_With_Interrupt\Core\Inc\stm32f4xx_hal_conf.h_save
+2024-11-13 00:01:46,990 [INFO] CodeEngine:335 - Generated code: C:\Users\julio\Downloads\FreeRTOS_STM32F407\App_021_Example_6.4_Binary_Semaphore_Synch_Task_With_Interrupt\Core\Inc\stm32f4xx_hal_conf.h
+2024-11-13 00:01:47,040 [WARN] IPConfigManager:3513 - IP not found : TIM
+2024-11-13 00:01:47,041 [WARN] CodeGenerator:3951 - IP not found : null
+2024-11-13 00:01:47,082 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\julio\Downloads\FreeRTOS_STM32F407\App_021_Example_6.4_Binary_Semaphore_Synch_Task_With_Interrupt\Core\Inc\main.h_save
+2024-11-13 00:01:47,203 [INFO] CodeEngine:279 - Generated code: C:\Users\julio\Downloads\FreeRTOS_STM32F407\App_021_Example_6.4_Binary_Semaphore_Synch_Task_With_Interrupt\Core\Inc\main.h
+2024-11-13 00:01:47,230 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\julio\Downloads\FreeRTOS_STM32F407\App_021_Example_6.4_Binary_Semaphore_Synch_Task_With_Interrupt\Core\Src\main.c_save
+2024-11-13 00:01:47,447 [INFO] CodeEngine:279 - Generated code: C:\Users\julio\Downloads\FreeRTOS_STM32F407\App_021_Example_6.4_Binary_Semaphore_Synch_Task_With_Interrupt\Core\Src\main.c
+2024-11-13 00:01:48,075 [INFO] ProjectBuilder:3163 - Time for Copy HAL[1] : 314mS.
+2024-11-13 00:01:48,082 [INFO] ProjectBuilder:4736 - Project Generator version: 4.3.0-B58
+2024-11-13 00:01:48,264 [INFO] ConfigFileManager:1503 - The Die is : DIE413
+2024-11-13 00:01:50,010 [INFO] ProjectBuilder:5002 - Time for Generating toolchain IDE Files: 1928mS.
+2024-11-13 00:01:50,011 [INFO] ProjectBuilder:3034 - Time for Copy CMSIS : 1mS.
+2024-11-13 00:01:50,024 [INFO] ProjectBuilder:3034 - Time for Copy CMSIS : 0mS.

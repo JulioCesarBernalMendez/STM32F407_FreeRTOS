@@ -1,4 +1,4 @@
-12:37:10 **** Incremental Build of configuration Debug for project App_019_Example_6.2_Use_Callback_Function_Param_and_SW_Timer_ID ****
+19:18:31 **** Incremental Build of configuration Debug for project App_019_Example_6.2_Use_Callback_Function_Param_and_SW_Timer_ID ****
 make -j8 all 
 arm-none-eabi-size  App_019_Example_6.2_Use_Callback_Function_Param_and_SW_Timer_ID.elf 
    text	   data	    bss	    dec	    hex	filename
@@ -6,5 +6,5 @@ arm-none-eabi-size  App_019_Example_6.2_Use_Callback_Function_Param_and_SW_Timer
 Finished building: default.size.stdout
  
 
-12:37:11 Build Finished. 0 errors, 0 warnings. (took 1s.156ms)
+19:18:32 Build Finished. 0 errors, 0 warnings. (took 567ms)
 

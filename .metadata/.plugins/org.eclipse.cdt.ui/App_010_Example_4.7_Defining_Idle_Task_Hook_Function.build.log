@@ -1,4 +1,4 @@
-12:36:48 **** Incremental Build of configuration Debug for project App_010_Example_4.7_Defining_Idle_Task_Hook_Function ****
+19:18:25 **** Incremental Build of configuration Debug for project App_010_Example_4.7_Defining_Idle_Task_Hook_Function ****
 make -j8 all 
 arm-none-eabi-size  App_010_Example_4.7_Defining_Idle_Task_Hook_Function.elf 
    text	   data	    bss	    dec	    hex	filename
@@ -6,5 +6,5 @@ arm-none-eabi-size  App_010_Example_4.7_Defining_Idle_Task_Hook_Function.elf
 Finished building: default.size.stdout
  
 
-12:36:49 Build Finished. 0 errors, 0 warnings. (took 1s.17ms)
+19:18:26 Build Finished. 0 errors, 0 warnings. (took 607ms)
 
