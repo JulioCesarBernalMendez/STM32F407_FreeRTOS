@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item key="selection" value="TIM3_Init"/>
+		<item key="selection" value="xSemaphoreTake"/>
 		<item key="wrap" value="true"/>
 		<item key="casesensitive" value="false"/>
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
+			<item value="xSemaphoreTake"/>
+			<item value="xTakeSema"/>
 			<item value="TIM3_Init"/>
 			<item value="MX_GPIO_Init"/>
 			<item value="callback"/>
@@ -21,8 +23,6 @@
 			<item value="receiver"/>
 			<item value="task1 is running"/>
 			<item value="hello world"/>
-			<item value="tas"/>
-			<item value="LED_Task"/>
 		</list>
 		<list key="replacehistory">
 		</list>

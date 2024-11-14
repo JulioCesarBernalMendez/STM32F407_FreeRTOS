@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;App_021_Example_6.4_Counting_Semaphore_Synch_Task_With_Interrupt/App_021_Example_6.4_Binary_Semaphore_Synch_Task_With_Interrupt.ioc&apos; to &apos;App_021_Example_6.4_Counting_Semaphore_Synch_Task_With_Interrupt.ioc&apos;" description="Rename resource &apos;App_021_Example_6.4_Binary_Semaphore_Synch_Task_With_Interrupt.ioc&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="App_021_Example_6.4_Binary_Semaphore_Synch_Task_With_Interrupt.ioc" name="App_021_Example_6.4_Counting_Semaphore_Synch_Task_With_Interrupt.ioc" stamp="1731597769292" updateReferences="true"/>
+</session>
