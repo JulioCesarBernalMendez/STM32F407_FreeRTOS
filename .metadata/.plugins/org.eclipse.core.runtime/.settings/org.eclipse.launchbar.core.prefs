@@ -20,6 +20,8 @@ org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:App_020_Example_6.3_Resetting_a
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:App_020_Example_6.3_Resetting_a_Software_Timer/activeLaunchTarget=null\:---
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:App_021_Example_6.4_Binary_Semaphore_Synch_Task_With_Interrupt/activeLaunchMode=debug
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:App_021_Example_6.4_Binary_Semaphore_Synch_Task_With_Interrupt/activeLaunchTarget=null\:---
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:App_022_Example_7.2_Counting_Semaphore_Synch_Task_With_Interrupt/activeLaunchMode=debug
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:App_022_Example_7.2_Counting_Semaphore_Synch_Task_With_Interrupt/activeLaunchTarget=null\:---
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Application_001_Blinky/activeLaunchMode=debug
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Application_001_Blinky/activeLaunchTarget=null\:---
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Application_002_2_Separate_Blinky_Tasks/activeLaunchMode=debug
