@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;App_023_Example_7.3_Centralized_Deferred_Interrupt_Processing/App_022_Example_7.2_Counting_Semaphore_Synch_Task_With_Interrupt.ioc&apos; to &apos;App_023_Example_7.3_Centralized_Deferred_Interrupt_Processing.ioc&apos;" description="Rename resource &apos;App_022_Example_7.2_Counting_Semaphore_Synch_Task_With_Interrupt.ioc&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="App_022_Example_7.2_Counting_Semaphore_Synch_Task_With_Interrupt.ioc" name="App_023_Example_7.3_Centralized_Deferred_Interrupt_Processing.ioc" stamp="1731639512940" updateReferences="true"/>
+</session>
