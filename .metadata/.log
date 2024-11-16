@@ -9872,3 +9872,21 @@ org.eclipse.core.runtime.CoreException: Setup exceptions
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 !SUBENTRY 1 com.st.stm32cube.ide.mcu.debug.launch 4 0 2024-11-15 07:52:04.147
 !MESSAGE Setup exceptions
+!SESSION 2024-11-16 09:21:42.693 -----------------------------------------------
+eclipse.buildId=Version 1.15.1
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2024-11-16 09:22:17.787
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2024-11-16 09:22:17.801
+!MESSAGE Log4j2 initialized with config file C:\Users\julio\Downloads\FreeRTOS_STM32F407\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-11-16 09:22:33.435
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-11-16 09:24:17.968
+!MESSAGE Indexed 'App_024_Example_7.4_Send_Receive_Queue_Within_Interrupt' (32 sources, 150 headers) in 11.4 sec: 15,882 declarations; 75,747 references; 4 unresolved inclusions; 230 syntax errors; 602 unresolved names (0.65%)
