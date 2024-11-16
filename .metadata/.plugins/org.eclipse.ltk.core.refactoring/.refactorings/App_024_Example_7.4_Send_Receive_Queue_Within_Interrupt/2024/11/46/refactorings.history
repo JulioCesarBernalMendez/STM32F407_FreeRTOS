@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;App_024_Example_7.4_Send_Receive_Queue_Within_Interrupt/App_023_Example_7.3_Centralized_Deferred_Interrupt_Processing.ioc&apos; to &apos;App_024_Example_7.4_Send_Receive_Queue_Within_Interrupt.ioc&apos;" description="Rename resource &apos;App_023_Example_7.3_Centralized_Deferred_Interrupt_Processing.ioc&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="App_023_Example_7.3_Centralized_Deferred_Interrupt_Processing.ioc" name="App_024_Example_7.4_Send_Receive_Queue_Within_Interrupt.ioc" stamp="1731770662161" updateReferences="true"/>
+</session>

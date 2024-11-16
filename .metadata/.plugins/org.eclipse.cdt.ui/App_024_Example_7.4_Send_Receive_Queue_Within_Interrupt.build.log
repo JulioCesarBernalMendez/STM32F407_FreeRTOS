@@ -1,0 +1,10 @@
+13:31:49 **** Incremental Build of configuration Debug for project App_024_Example_7.4_Send_Receive_Queue_Within_Interrupt ****
+make -j8 all 
+arm-none-eabi-size  App_024_Example_7.4_Send_Receive_Queue_Within_Interrupt.elf 
+   text	   data	    bss	    dec	    hex	filename
+  25480	    116	  79284	 104880	  199b0	App_024_Example_7.4_Send_Receive_Queue_Within_Interrupt.elf
+Finished building: default.size.stdout
+ 
+
+13:31:49 Build Finished. 0 errors, 0 warnings. (took 799ms)
+

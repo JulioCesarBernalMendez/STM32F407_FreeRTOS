@@ -9,6 +9,8 @@
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
 			<item value="callback"/>
+			<item value="xQueueSendFromISR"/>
+			<item value="xTimerPendFunctionCallFromISR"/>
 			<item value="xSemaphoreTake"/>
 			<item value="xTakeSema"/>
 			<item value="TIM3_Init"/>
@@ -21,8 +23,6 @@
 			<item value="comp_active_ctor"/>
 			<item value="vsender"/>
 			<item value="receiver"/>
-			<item value="task1 is running"/>
-			<item value="hello world"/>
 		</list>
 		<list key="replacehistory">
 		</list>
