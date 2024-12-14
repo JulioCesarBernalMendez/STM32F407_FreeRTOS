@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;App_025_Example_8.1_Rewrite_UART2_Print_Text_Use_Semaphore_Mutex/App_024_Example_7.4_Send_Receive_Queue_Within_Interrupt.ioc&apos; to &apos;App_025_Example_8.1_Rewrite_UART2_Print_Text_Use_Semaphore_Mutex.ioc&apos;" description="Rename resource &apos;App_024_Example_7.4_Send_Receive_Queue_Within_Interrupt.ioc&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="App_024_Example_7.4_Send_Receive_Queue_Within_Interrupt.ioc" name="App_025_Example_8.1_Rewrite_UART2_Print_Text_Use_Semaphore_Mutex.ioc" stamp="1734137882119" updateReferences="true"/>
+</session>
