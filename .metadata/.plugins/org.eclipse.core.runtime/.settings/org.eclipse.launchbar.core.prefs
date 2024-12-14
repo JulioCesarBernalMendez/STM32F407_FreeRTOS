@@ -26,6 +26,8 @@ org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:App_023_Example_7.3_Centralized
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:App_023_Example_7.3_Centralized_Deferred_Interrupt_Processing/activeLaunchTarget=null\:---
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:App_024_Example_7.4_Send_Receive_Queue_Within_Interrupt/activeLaunchMode=debug
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:App_024_Example_7.4_Send_Receive_Queue_Within_Interrupt/activeLaunchTarget=null\:---
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:App_025_Example_8.1_Rewrite_UART2_Print_Text_Use_Semaphore_Mutex/activeLaunchMode=debug
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:App_025_Example_8.1_Rewrite_UART2_Print_Text_Use_Semaphore_Mutex/activeLaunchTarget=null\:---
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Application_001_Blinky/activeLaunchMode=debug
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Application_001_Blinky/activeLaunchTarget=null\:---
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Application_002_2_Separate_Blinky_Tasks/activeLaunchMode=debug
