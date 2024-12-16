@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;App_026_Example_8.2_Alternative_Print_Task_Using_Gatekeeper/App_025_Example_8.1_Rewrite_UART2_Print_Text_Use_Semaphore_Mutex.ioc&apos; to &apos;App_026_Example_8.2_Alternative_Print_Task_Using_Gatekeeper.ioc&apos;" description="Rename resource &apos;App_025_Example_8.1_Rewrite_UART2_Print_Text_Use_Semaphore_Mutex.ioc&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="App_025_Example_8.1_Rewrite_UART2_Print_Text_Use_Semaphore_Mutex.ioc" name="App_026_Example_8.2_Alternative_Print_Task_Using_Gatekeeper.ioc" stamp="1734370405290" updateReferences="true"/>
+</session>
