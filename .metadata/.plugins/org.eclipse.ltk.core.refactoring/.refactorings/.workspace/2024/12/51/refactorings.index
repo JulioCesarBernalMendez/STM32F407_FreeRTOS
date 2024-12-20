@@ -26,3 +26,6 @@
 1734375243839	Delete resource 'App_025_Example_8.1_Rewrite_UART2_Print_Text_Use_Semaphore_Mutex/Debug'
 1734378404735	Delete resource 'App_026_Example_8.2_Alternative_Print_Task_Using_Gatekeeper/Debug'
 1734378416457	Delete resource 'App_026_Example_8.2_Alternative_Print_Task_Using_Gatekeeper/App_026_Example_8.2_Alternative_Print_Task_Using_Gatekeeper.launch'
+1734632876280	Delete resource 'App_027_Example_9.1_Experimenting_with_Event_Groups/output.png'
+1734657401903	Delete resource 'App_027_Example_9.1_Experimenting_with_Event_Groups/Debug'
+1734657416702	Delete resource 'App_027_Example_9.1_Experimenting_with_Event_Groups/App_027_Example_9.1_Experimenting_with_Event_Groups Debug.launch'

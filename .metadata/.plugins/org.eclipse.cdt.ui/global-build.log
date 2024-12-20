@@ -1,28 +1,14 @@
-13:38:23 **** Incremental Build of configuration Debug for project App_026_Example_8.2_Alternative_Print_Task_Using_Gatekeeper ****
+19:16:17 **** Incremental Build of configuration Debug for project App_027_Example_9.1_Experimenting_with_Event_Groups ****
 make -j8 all 
-arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I"C:/Users/julio/Downloads/FreeRTOS_STM32F407/App_026_Example_8.2_Alternative_Print_Task_Using_Gatekeeper/Core/FreeRTOS" -I"C:/Users/julio/Downloads/FreeRTOS_STM32F407/App_026_Example_8.2_Alternative_Print_Task_Using_Gatekeeper/Core/FreeRTOS/Source/include" -I"C:/Users/julio/Downloads/FreeRTOS_STM32F407/App_026_Example_8.2_Alternative_Print_Task_Using_Gatekeeper/Core/FreeRTOS/Source/portable/GCC/ARM_CM4F" -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
-arm-none-eabi-gcc -o "App_026_Example_8.2_Alternative_Print_Task_Using_Gatekeeper.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\julio\Downloads\FreeRTOS_STM32F407\App_026_Example_8.2_Alternative_Print_Task_Using_Gatekeeper\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="App_026_Example_8.2_Alternative_Print_Task_Using_Gatekeeper.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: App_026_Example_8.2_Alternative_Print_Task_Using_Gatekeeper.elf
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I"C:/Users/julio/Downloads/FreeRTOS_STM32F407/App_027_Example_9.1_Experimenting_with_Event_Groups/Core/FreeRTOS" -I"C:/Users/julio/Downloads/FreeRTOS_STM32F407/App_027_Example_9.1_Experimenting_with_Event_Groups/Core/FreeRTOS/Source/include" -I"C:/Users/julio/Downloads/FreeRTOS_STM32F407/App_027_Example_9.1_Experimenting_with_Event_Groups/Core/FreeRTOS/Source/portable/GCC/ARM_CM4F" -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "App_027_Example_9.1_Experimenting_with_Event_Groups.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\julio\Downloads\FreeRTOS_STM32F407\App_027_Example_9.1_Experimenting_with_Event_Groups\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="App_027_Example_9.1_Experimenting_with_Event_Groups.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: App_027_Example_9.1_Experimenting_with_Event_Groups.elf
  
-arm-none-eabi-size  App_026_Example_8.2_Alternative_Print_Task_Using_Gatekeeper.elf 
-arm-none-eabi-objdump -h -S App_026_Example_8.2_Alternative_Print_Task_Using_Gatekeeper.elf  > "App_026_Example_8.2_Alternative_Print_Task_Using_Gatekeeper.list"
+arm-none-eabi-size  App_027_Example_9.1_Experimenting_with_Event_Groups.elf 
+arm-none-eabi-objdump -h -S App_027_Example_9.1_Experimenting_with_Event_Groups.elf  > "App_027_Example_9.1_Experimenting_with_Event_Groups.list"
    text	   data	    bss	    dec	    hex	filename
-  26908	    124	  79276	 106308	  19f44	App_026_Example_8.2_Alternative_Print_Task_Using_Gatekeeper.elf
+  24972	     24	  79008	 104004	  19644	App_027_Example_9.1_Experimenting_with_Event_Groups.elf
 Finished building: default.size.stdout
  
-Finished building: App_026_Example_8.2_Alternative_Print_Task_Using_Gatekeeper.list
- 
-13:38:41 **** Incremental Build of configuration Debug for project App_026_Example_8.2_Alternative_Print_Task_Using_Gatekeeper ****
-make -j8 all 
-arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I"C:/Users/julio/Downloads/FreeRTOS_STM32F407/App_026_Example_8.2_Alternative_Print_Task_Using_Gatekeeper/Core/FreeRTOS" -I"C:/Users/julio/Downloads/FreeRTOS_STM32F407/App_026_Example_8.2_Alternative_Print_Task_Using_Gatekeeper/Core/FreeRTOS/Source/include" -I"C:/Users/julio/Downloads/FreeRTOS_STM32F407/App_026_Example_8.2_Alternative_Print_Task_Using_Gatekeeper/Core/FreeRTOS/Source/portable/GCC/ARM_CM4F" -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
-arm-none-eabi-gcc -o "App_026_Example_8.2_Alternative_Print_Task_Using_Gatekeeper.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\julio\Downloads\FreeRTOS_STM32F407\App_026_Example_8.2_Alternative_Print_Task_Using_Gatekeeper\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="App_026_Example_8.2_Alternative_Print_Task_Using_Gatekeeper.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: App_026_Example_8.2_Alternative_Print_Task_Using_Gatekeeper.elf
- 
-arm-none-eabi-size  App_026_Example_8.2_Alternative_Print_Task_Using_Gatekeeper.elf 
-arm-none-eabi-objdump -h -S App_026_Example_8.2_Alternative_Print_Task_Using_Gatekeeper.elf  > "App_026_Example_8.2_Alternative_Print_Task_Using_Gatekeeper.list"
-   text	   data	    bss	    dec	    hex	filename
-  26908	    124	  79276	 106308	  19f44	App_026_Example_8.2_Alternative_Print_Task_Using_Gatekeeper.elf
-Finished building: default.size.stdout
- 
-Finished building: App_026_Example_8.2_Alternative_Print_Task_Using_Gatekeeper.list
+Finished building: App_027_Example_9.1_Experimenting_with_Event_Groups.list
  
