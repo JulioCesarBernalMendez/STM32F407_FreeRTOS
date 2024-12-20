@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;App_027_Example_9.1_Experimenting_with_Event_Groups/App_023_Example_7.3_Centralized_Deferred_Interrupt_Processing.ioc&apos; to &apos;App_027_Example_9.1_Experimenting_with_Event_Groups.ioc&apos;" description="Rename resource &apos;App_023_Example_7.3_Centralized_Deferred_Interrupt_Processing.ioc&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="App_023_Example_7.3_Centralized_Deferred_Interrupt_Processing.ioc" name="App_027_Example_9.1_Experimenting_with_Event_Groups.ioc" stamp="1734632855537" updateReferences="true"/>
+</session>
