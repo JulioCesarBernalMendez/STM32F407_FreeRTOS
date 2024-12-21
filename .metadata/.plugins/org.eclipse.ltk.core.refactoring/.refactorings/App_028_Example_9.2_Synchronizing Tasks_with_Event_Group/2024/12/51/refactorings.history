@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;App_028_Example_9.2_Synchronizing Tasks_with_Event_Group/App_027_Example_9.1_Experimenting_with_Event_Groups.ioc&apos; to &apos;App_028_Example_9.2_Synchronizing Tasks_with_Event_Group.ioc&apos;" description="Rename resource &apos;App_027_Example_9.1_Experimenting_with_Event_Groups.ioc&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="App_027_Example_9.1_Experimenting_with_Event_Groups.ioc" name="App_028_Example_9.2_Synchronizing Tasks_with_Event_Group.ioc" stamp="1734754164411" updateReferences="true"/>
+</session>
