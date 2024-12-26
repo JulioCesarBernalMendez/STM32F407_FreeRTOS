@@ -36,6 +36,8 @@ org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:App_028_Example_9.2_Synchronizi
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:App_028_Example_9.2_Synchronizing\ Tasks_with_Event_Group/activeLaunchTarget=null\:---
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:App_029_Example_10.1_Task_Notification_in_place_of_Semphr_1/activeLaunchMode=debug
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:App_029_Example_10.1_Task_Notification_in_place_of_Semphr_1/activeLaunchTarget=null\:---
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:App_030_Example_10.2_Task_Notification_in_place_of_Semphr_2/activeLaunchMode=debug
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:App_030_Example_10.2_Task_Notification_in_place_of_Semphr_2/activeLaunchTarget=null\:---
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Application_001_Blinky/activeLaunchMode=debug
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Application_001_Blinky/activeLaunchTarget=null\:---
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Application_002_2_Separate_Blinky_Tasks/activeLaunchMode=debug

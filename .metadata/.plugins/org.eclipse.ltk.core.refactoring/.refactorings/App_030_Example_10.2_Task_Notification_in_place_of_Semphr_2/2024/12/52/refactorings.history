@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;App_030_Example_10.2_Task_Notification_in_place_of_Semphr_2/App_029_Example_10.1_Task_Notification_in_place_of_Semphr_1.ioc&apos; to &apos;App_030_Example_10.2_Task_Notification_in_place_of_Semphr_2.ioc&apos;" description="Rename resource &apos;App_029_Example_10.1_Task_Notification_in_place_of_Semphr_1.ioc&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="App_029_Example_10.1_Task_Notification_in_place_of_Semphr_1.ioc" name="App_030_Example_10.2_Task_Notification_in_place_of_Semphr_2.ioc" stamp="1735234259128" updateReferences="true"/>
+</session>

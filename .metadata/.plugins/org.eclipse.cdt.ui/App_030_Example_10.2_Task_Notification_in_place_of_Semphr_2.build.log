@@ -1,0 +1,17 @@
+12:07:54 **** Incremental Build of configuration Debug for project App_030_Example_10.2_Task_Notification_in_place_of_Semphr_2 ****
+make -j8 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F407xx -c -I../Core/Inc -I"C:/Users/julio/Downloads/FreeRTOS_STM32F407/App_030_Example_10.2_Task_Notification_in_place_of_Semphr_2/Core/FreeRTOS" -I"C:/Users/julio/Downloads/FreeRTOS_STM32F407/App_030_Example_10.2_Task_Notification_in_place_of_Semphr_2/Core/FreeRTOS/Source/include" -I"C:/Users/julio/Downloads/FreeRTOS_STM32F407/App_030_Example_10.2_Task_Notification_in_place_of_Semphr_2/Core/FreeRTOS/Source/portable/GCC/ARM_CM4F" -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "App_030_Example_10.2_Task_Notification_in_place_of_Semphr_2.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\julio\Downloads\FreeRTOS_STM32F407\App_030_Example_10.2_Task_Notification_in_place_of_Semphr_2\STM32F407VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="App_030_Example_10.2_Task_Notification_in_place_of_Semphr_2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: App_030_Example_10.2_Task_Notification_in_place_of_Semphr_2.elf
+ 
+arm-none-eabi-size  App_030_Example_10.2_Task_Notification_in_place_of_Semphr_2.elf 
+arm-none-eabi-objdump -h -S App_030_Example_10.2_Task_Notification_in_place_of_Semphr_2.elf  > "App_030_Example_10.2_Task_Notification_in_place_of_Semphr_2.list"
+   text	   data	    bss	    dec	    hex	filename
+  22276	     20	  79012	 101308	  18bbc	App_030_Example_10.2_Task_Notification_in_place_of_Semphr_2.elf
+Finished building: default.size.stdout
+ 
+Finished building: App_030_Example_10.2_Task_Notification_in_place_of_Semphr_2.list
+ 
+
+12:07:56 Build Finished. 0 errors, 0 warnings. (took 2s.291ms)
+
