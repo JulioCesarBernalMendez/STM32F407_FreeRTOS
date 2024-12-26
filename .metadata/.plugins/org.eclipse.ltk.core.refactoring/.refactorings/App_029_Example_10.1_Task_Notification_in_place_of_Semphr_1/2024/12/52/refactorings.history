@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;App_029_Example_10.1_Task_Notification_in_place_of_Semphr_1/App_021_Example_7.1_Binary_Semaphore_Synch_Task_With_Interrupt.ioc&apos; to &apos;App_029_Example_10.1_Task_Notification_in_place_of_Semphr_1.ioc&apos;" description="Rename resource &apos;App_021_Example_7.1_Binary_Semaphore_Synch_Task_With_Interrupt.ioc&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="App_021_Example_7.1_Binary_Semaphore_Synch_Task_With_Interrupt.ioc" name="App_029_Example_10.1_Task_Notification_in_place_of_Semphr_1.ioc" stamp="1735168407471" updateReferences="true"/>
+</session>

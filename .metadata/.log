@@ -10289,3 +10289,21 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64
 
 !ENTRY org.eclipse.cdt.core 1 0 2024-12-20 22:09:26.880
 !MESSAGE Indexed 'App_028_Example_9.2_Synchronizing Tasks_with_Event_Group' (32 sources, 150 headers) in 10.6 sec: 15,893 declarations; 75,805 references; 4 unresolved inclusions; 230 syntax errors; 602 unresolved names (0.65%)
+!SESSION 2024-12-25 17:10:45.957 -----------------------------------------------
+eclipse.buildId=Version 1.15.1
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2024-12-25 17:11:17.239
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2024-12-25 17:11:17.247
+!MESSAGE Log4j2 initialized with config file C:\Users\julio\Downloads\FreeRTOS_STM32F407\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-12-25 17:11:27.383
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-12-25 17:13:27.137
+!MESSAGE Indexed 'App_029_Example_10.1_Task_Notification_in_place_of_Semphr_1' (32 sources, 150 headers) in 6.39 sec: 15,841 declarations; 75,651 references; 4 unresolved inclusions; 229 syntax errors; 596 unresolved names (0.65%)
