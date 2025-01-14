@@ -1,0 +1,25 @@
+Core/FreeRTOS/Source/tasks.o: ../Core/FreeRTOS/Source/tasks.c \
+ C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_010_Example_4.7_Defining_Idle_Task_Hook_Function/Core/FreeRTOS/Source/include/FreeRTOS.h \
+ C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_010_Example_4.7_Defining_Idle_Task_Hook_Function/Core/FreeRTOS/FreeRTOSConfig.h \
+ C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_010_Example_4.7_Defining_Idle_Task_Hook_Function/Core/FreeRTOS/Source/include/projdefs.h \
+ C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_010_Example_4.7_Defining_Idle_Task_Hook_Function/Core/FreeRTOS/Source/include/portable.h \
+ C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_010_Example_4.7_Defining_Idle_Task_Hook_Function/Core/FreeRTOS/Source/include/deprecated_definitions.h \
+ C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_010_Example_4.7_Defining_Idle_Task_Hook_Function/Core/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h \
+ C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_010_Example_4.7_Defining_Idle_Task_Hook_Function/Core/FreeRTOS/Source/include/mpu_wrappers.h \
+ C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_010_Example_4.7_Defining_Idle_Task_Hook_Function/Core/FreeRTOS/Source/include/task.h \
+ C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_010_Example_4.7_Defining_Idle_Task_Hook_Function/Core/FreeRTOS/Source/include/list.h \
+ C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_010_Example_4.7_Defining_Idle_Task_Hook_Function/Core/FreeRTOS/Source/include/timers.h \
+ C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_010_Example_4.7_Defining_Idle_Task_Hook_Function/Core/FreeRTOS/Source/include/task.h \
+ C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_010_Example_4.7_Defining_Idle_Task_Hook_Function/Core/FreeRTOS/Source/include/stack_macros.h
+C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_010_Example_4.7_Defining_Idle_Task_Hook_Function/Core/FreeRTOS/Source/include/FreeRTOS.h:
+C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_010_Example_4.7_Defining_Idle_Task_Hook_Function/Core/FreeRTOS/FreeRTOSConfig.h:
+C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_010_Example_4.7_Defining_Idle_Task_Hook_Function/Core/FreeRTOS/Source/include/projdefs.h:
+C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_010_Example_4.7_Defining_Idle_Task_Hook_Function/Core/FreeRTOS/Source/include/portable.h:
+C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_010_Example_4.7_Defining_Idle_Task_Hook_Function/Core/FreeRTOS/Source/include/deprecated_definitions.h:
+C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_010_Example_4.7_Defining_Idle_Task_Hook_Function/Core/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h:
+C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_010_Example_4.7_Defining_Idle_Task_Hook_Function/Core/FreeRTOS/Source/include/mpu_wrappers.h:
+C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_010_Example_4.7_Defining_Idle_Task_Hook_Function/Core/FreeRTOS/Source/include/task.h:
+C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_010_Example_4.7_Defining_Idle_Task_Hook_Function/Core/FreeRTOS/Source/include/list.h:
+C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_010_Example_4.7_Defining_Idle_Task_Hook_Function/Core/FreeRTOS/Source/include/timers.h:
+C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_010_Example_4.7_Defining_Idle_Task_Hook_Function/Core/FreeRTOS/Source/include/task.h:
+C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_010_Example_4.7_Defining_Idle_Task_Hook_Function/Core/FreeRTOS/Source/include/stack_macros.h:

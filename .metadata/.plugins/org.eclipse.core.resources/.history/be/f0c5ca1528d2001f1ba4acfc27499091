@@ -1,0 +1,21 @@
+Core/FreeRTOS/Source/croutine.o: ../Core/FreeRTOS/Source/croutine.c \
+ C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_021_Example_7.1_Binary_Semaphore_Synch_Task_With_Interrupt/Core/FreeRTOS/Source/include/FreeRTOS.h \
+ C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_021_Example_7.1_Binary_Semaphore_Synch_Task_With_Interrupt/Core/FreeRTOS/FreeRTOSConfig.h \
+ C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_021_Example_7.1_Binary_Semaphore_Synch_Task_With_Interrupt/Core/FreeRTOS/Source/include/projdefs.h \
+ C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_021_Example_7.1_Binary_Semaphore_Synch_Task_With_Interrupt/Core/FreeRTOS/Source/include/portable.h \
+ C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_021_Example_7.1_Binary_Semaphore_Synch_Task_With_Interrupt/Core/FreeRTOS/Source/include/deprecated_definitions.h \
+ C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_021_Example_7.1_Binary_Semaphore_Synch_Task_With_Interrupt/Core/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h \
+ C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_021_Example_7.1_Binary_Semaphore_Synch_Task_With_Interrupt/Core/FreeRTOS/Source/include/mpu_wrappers.h \
+ C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_021_Example_7.1_Binary_Semaphore_Synch_Task_With_Interrupt/Core/FreeRTOS/Source/include/task.h \
+ C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_021_Example_7.1_Binary_Semaphore_Synch_Task_With_Interrupt/Core/FreeRTOS/Source/include/list.h \
+ C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_021_Example_7.1_Binary_Semaphore_Synch_Task_With_Interrupt/Core/FreeRTOS/Source/include/croutine.h
+C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_021_Example_7.1_Binary_Semaphore_Synch_Task_With_Interrupt/Core/FreeRTOS/Source/include/FreeRTOS.h:
+C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_021_Example_7.1_Binary_Semaphore_Synch_Task_With_Interrupt/Core/FreeRTOS/FreeRTOSConfig.h:
+C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_021_Example_7.1_Binary_Semaphore_Synch_Task_With_Interrupt/Core/FreeRTOS/Source/include/projdefs.h:
+C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_021_Example_7.1_Binary_Semaphore_Synch_Task_With_Interrupt/Core/FreeRTOS/Source/include/portable.h:
+C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_021_Example_7.1_Binary_Semaphore_Synch_Task_With_Interrupt/Core/FreeRTOS/Source/include/deprecated_definitions.h:
+C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_021_Example_7.1_Binary_Semaphore_Synch_Task_With_Interrupt/Core/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h:
+C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_021_Example_7.1_Binary_Semaphore_Synch_Task_With_Interrupt/Core/FreeRTOS/Source/include/mpu_wrappers.h:
+C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_021_Example_7.1_Binary_Semaphore_Synch_Task_With_Interrupt/Core/FreeRTOS/Source/include/task.h:
+C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_021_Example_7.1_Binary_Semaphore_Synch_Task_With_Interrupt/Core/FreeRTOS/Source/include/list.h:
+C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_021_Example_7.1_Binary_Semaphore_Synch_Task_With_Interrupt/Core/FreeRTOS/Source/include/croutine.h:
