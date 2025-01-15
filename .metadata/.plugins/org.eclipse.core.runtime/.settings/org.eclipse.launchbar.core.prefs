@@ -10,6 +10,8 @@ org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:App_002_2_Separate_Blinky_Tasks
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:App_002_2_Separate_Blinky_Tasks/activeLaunchTarget=null\:---
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:App_003_Example_4.1_Creating_Tasks_v1/activeLaunchMode=debug
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:App_003_Example_4.1_Creating_Tasks_v1/activeLaunchTarget=null\:---
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:App_004_Example_4.1_Creating_Tasks_v2/activeLaunchMode=debug
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:App_004_Example_4.1_Creating_Tasks_v2/activeLaunchTarget=null\:---
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:App_009_Example_4.6_Combine_Blocking_and_Non_Blocking_Tasks/activeLaunchMode=debug
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:App_009_Example_4.6_Combine_Blocking_and_Non_Blocking_Tasks/activeLaunchTarget=null\:---
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:App_010_Example_4.7_Defining_Idle_Task_Hook_Function\ Debug/activeLaunchMode=debug

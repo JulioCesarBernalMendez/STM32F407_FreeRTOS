@@ -1,0 +1,79 @@
+Add SEGGER SystemView to a previous project to analyze FreeRTOS tasks execution:
+--------------------------------------------------------------------------------
+1. This is for a project already working (i.e. compiles and runs, besides tasks are already implemented as intended).
+
+2. Create a folder ThirdParty inside the root folder of the project, inside there have to be 2 more folders:
+   - FreeRTOS (for this if a previous FreeRTOS folder already existed before, cut and paste it into ThirdParty)
+     - note: bare in mind FreeRTOSConfig.h is application specific (i.e. don't use a generic FreeRTOSConfig.h file)
+
+   - SystemView (this is the folder containing all the SystemView source files)
+     |-> Config
+     |-> Sample
+     |-> SEGGER
+     
+     - note: please read the SEGGER SystemView user manual, section " Including SystemView in the application"
+             for details about the files that must be inside each of these folders
+
+     - note 2: FreeRTOS >= V11 does not need to be patched for SEGGER SystemView to be used (the tool is already added natively).
+               see: https://kb.segger.com/FreeRTOS_with_SystemView
+
+     - note 3: if there are warning about redefinitions (e.g. warning: "traceRETURN_vTaskInternalSetTimeOutState" redefined),
+               this can be solved by doing step 4.1 (add defines in FreeRTOSConfig.h for SystemView)
+
+3. Re-compile the project and solve all undefined references to header and source files.
+   For this include the path to the include folders necessary for both GCC (compiler) and assembler,
+   and don't exclude the folder ThirdParty from being compiled.
+
+   - note: I recommend solving one issue at a time (add one include, re-compile, add the next include, re-compile and so on)
+
+4.1. Add defines in FreeRTOSConfig.h to include SEGGER SystemView in the application:
+     
+     // Add this after all the INCLUDE_XXXX defines
+     #define INCLUDE_xTaskGetIdleTaskHandle  1
+     #define INCLUDE_pxTaskGetStackStart     1
+
+     // Add this at the end of the file (note: before the #endif of the guard that includes FreeRTOSConfig.h)
+     #include "SEGGER_SYSVIEW_FreeRTOS.h"
+
+4.2. Go to SEGGER_SYSVIEW_Config_FreeRTOS.c and set as per your application's need:
+     - SystemView app name: #define SYSVIEW_APP_NAME        "name you want"
+     - device name:         #define SYSVIEW_DEVICE_NAME     "device you're using"
+
+4.3. Go to SEGGER_SYSVIEW_ConfDefaults.h and set the RTT buffer's size as per your application's needs:
+     - #define SEGGER_SYSVIEW_RTT_BUFFER_SIZE          ( 1024 * 25 )
+
+4.4. In main.c enable Cycle counter (only for Cortex-M4), initialize/configure and start SystemView:
+
+     // Add this after all the HAL initializations
+
+     /* enable CYCCNT (Cycle Count, needed for SEGGER SystemView) in DWT_CTRL register */
+     DWT->CTRL |= DWT_CTRL_CYCCNTENA_Msk;
+
+     /* initialize and configure SEGGER SystemView */
+     SEGGER_SYSVIEW_Conf();
+
+     /* start recording SEGGER SystemView events */
+     SEGGER_SYSVIEW_Start();
+
+4.5. In stm32f4xx_hal_msp.c set the microcontroller to not use any supriority bits:
+
+     // Add this inside HAL_MspInit()
+
+     HAL_NVIC_SetPriorityGrouping( 0 );
+
+5. Run the program on the board via the debugger, let it run a few seconds and then pause it,
+   read the address of the RTT buffer and copy it:
+
+  _SEGGER_RTT->aUp[1]->pBuffer // pointer to start buffer
+
+5.1. Go to the "Memory Browser" (STM32CubeIDE) tab and go to the address of the start buffer previously copied:
+
+     Window
+     |-> Show View
+         |-> Memory Browser
+
+     - copy/paste the address (example: 0x2001330c) of the start buffer and hit "go"
+     - then export the data in "RAW Binary" format, from the start buffer address with a length of _SEGGER_RTT->aUp[1]->WrOff (use debugger to read WrOff)
+     - save the file in .SVdat format (e.g. App004.SVdat)
+
+6. Execute SEGGER SystemView and open the .SVdat file recently saved and analyze it
