@@ -3174,3 +3174,54 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64
 
 !ENTRY org.eclipse.cdt.core 1 0 2025-01-15 11:22:10.272
 !MESSAGE Indexed 'App_004_Example_4.1_Creating_Tasks_v2' (38 sources, 159 headers) in 5.7 sec: 17,062 declarations; 79,549 references; 2 unresolved inclusions; 230 syntax errors; 251 unresolved names (0.26%)
+!SESSION 2025-01-16 10:23:55.176 -----------------------------------------------
+eclipse.buildId=Version 1.15.1
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.core.resources 2 10035 2025-01-16 10:24:08.714
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-01-16 10:24:37.453
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-01-16 10:24:37.467
+!MESSAGE Log4j2 initialized with config file C:\Users\julio\Downloads\STM32F407_FreeRTOS\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-01-16 10:24:55.217
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-01-16 10:34:32.305
+!MESSAGE Indexed 'App_005_Example_4.2_Using_Task_Parameter' (23 sources, 128 headers) in 9.78 sec: 12,740 declarations; 60,754 references; 1 unresolved inclusions; 92 syntax errors; 240 unresolved names (0.33%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-01-16 10:35:13.926
+!MESSAGE Indexed 'App_005_Example_4.2_Using_Task_Parameter' (23 sources, 128 headers) in 5.9 sec: 12,740 declarations; 60,754 references; 1 unresolved inclusions; 92 syntax errors; 240 unresolved names (0.33%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-01-16 10:35:58.612
+!MESSAGE Indexed 'App_005_Example_4.2_Using_Task_Parameter' (23 sources, 128 headers) in 3.84 sec: 12,740 declarations; 60,754 references; 1 unresolved inclusions; 92 syntax errors; 240 unresolved names (0.33%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-01-16 10:37:12.428
+!MESSAGE Indexed 'App_005_Example_4.2_Using_Task_Parameter' (38 sources, 159 headers) in 6.12 sec: 17,050 declarations; 78,876 references; 2 unresolved inclusions; 230 syntax errors; 251 unresolved names (0.26%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-01-16 10:39:32.652
+!MESSAGE Indexed 'App_005_Example_4.2_Using_Task_Parameter' (38 sources, 159 headers) in 5.13 sec: 17,058 declarations; 79,547 references; 2 unresolved inclusions; 230 syntax errors; 251 unresolved names (0.26%)
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 4 2025-01-16 10:44:50.201
+!MESSAGE NullPointerException while trying to calculated source lookup path. This can be ignored if it occurs while terminating a debug session. See Bug 500988.
+!STACK 0
+java.lang.NullPointerException: Cannot read the array length because "containers" is null
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupDirector.collectSubstitutionsPaths(GdbSourceLookupDirector.java:102)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupDirector.collectSubstitutionsPaths(GdbSourceLookupDirector.java:146)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupDirector.getSubstitutionsPaths(GdbSourceLookupDirector.java:72)
+	at org.eclipse.cdt.dsf.gdb.service.GDBSourceLookup.getSubstitutionsPaths(GDBSourceLookup.java:124)
+	at org.eclipse.cdt.dsf.gdb.service.GDBSourceLookup.sourceContainersChanged(GDBSourceLookup.java:139)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupParticipant.sourceContainersChangedOnDispatchThread(GdbSourceLookupParticipant.java:120)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupParticipant$1.run(GdbSourceLookupParticipant.java:85)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)

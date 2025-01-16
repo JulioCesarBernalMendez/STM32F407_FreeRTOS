@@ -1,4 +1,4 @@
-12:05:14 **** Clean-only build of configuration Debug for project App_004_Example_4.1_Creating_Tasks_v2 ****
+10:25:16 **** Clean-only build of configuration Debug for project App_004_Example_4.1_Creating_Tasks_v2 ****
 make -j8 clean 
 rm -rf ./ThirdParty/SystemView_Src_V354/Sample/SEGGER_SYSVIEW_FreeRTOS.cyclo ./ThirdParty/SystemView_Src_V354/Sample/SEGGER_SYSVIEW_FreeRTOS.d ./ThirdParty/SystemView_Src_V354/Sample/SEGGER_SYSVIEW_FreeRTOS.o ./ThirdParty/SystemView_Src_V354/Sample/SEGGER_SYSVIEW_FreeRTOS.su
 rm -rf ./ThirdParty/SystemView_Src_V354/SEGGER/Syscalls/SEGGER_RTT_Syscalls_GCC.cyclo ./ThirdParty/SystemView_Src_V354/SEGGER/Syscalls/SEGGER_RTT_Syscalls_GCC.d ./ThirdParty/SystemView_Src_V354/SEGGER/Syscalls/SEGGER_RTT_Syscalls_GCC.o ./ThirdParty/SystemView_Src_V354/SEGGER/Syscalls/SEGGER_RTT_Syscalls_GCC.su
@@ -13,5 +13,5 @@ rm -rf ./Core/Src/main.cyclo ./Core/Src/main.d ./Core/Src/main.o ./Core/Src/main
 rm -rf App_004_Example_4.1_Creating_Tasks_v2.elf App_004_Example_4.1_Creating_Tasks_v2.list App_004_Example_4.1_Creating_Tasks_v2.map default.size.stdout
  
 
-12:05:15 Build Finished. 0 errors, 0 warnings. (took 611ms)
+10:25:17 Build Finished. 0 errors, 0 warnings. (took 1s.441ms)
 
