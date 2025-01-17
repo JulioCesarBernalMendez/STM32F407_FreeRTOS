@@ -5971,3 +5971,36 @@ java.io.FileNotFoundException: C:\Users\julio\Downloads\STM32F407_FreeRTOS\App_0
 	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2478)
 	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
 	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-01-17 10:24:24.317
+!MESSAGE Indexed 'App_007_Example_4.4_Blocked_State_To_Delay' (23 sources, 128 headers) in 2.64 sec: 12,740 declarations; 60,762 references; 1 unresolved inclusions; 92 syntax errors; 240 unresolved names (0.33%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-01-17 10:25:09.445
+!MESSAGE Indexed 'App_007_Example_4.4_Blocked_State_To_Delay' (23 sources, 128 headers) in 2.08 sec: 12,740 declarations; 60,762 references; 1 unresolved inclusions; 92 syntax errors; 240 unresolved names (0.33%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-01-17 10:26:22.925
+!MESSAGE Indexed 'App_007_Example_4.4_Blocked_State_To_Delay' (23 sources, 128 headers) in 2.16 sec: 12,740 declarations; 60,762 references; 1 unresolved inclusions; 92 syntax errors; 240 unresolved names (0.33%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-01-17 10:27:26.638
+!MESSAGE Indexed 'App_007_Example_4.4_Blocked_State_To_Delay' (38 sources, 159 headers) in 2.47 sec: 17,050 declarations; 78,884 references; 2 unresolved inclusions; 230 syntax errors; 251 unresolved names (0.26%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-01-17 10:28:35.767
+!MESSAGE Indexed 'App_007_Example_4.4_Blocked_State_To_Delay' (38 sources, 159 headers) in 2.32 sec: 17,058 declarations; 79,555 references; 2 unresolved inclusions; 230 syntax errors; 251 unresolved names (0.26%)
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 4 2025-01-17 10:31:42.462
+!MESSAGE NullPointerException while trying to calculated source lookup path. This can be ignored if it occurs while terminating a debug session. See Bug 500988.
+!STACK 0
+java.lang.NullPointerException: Cannot read the array length because "containers" is null
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupDirector.collectSubstitutionsPaths(GdbSourceLookupDirector.java:102)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupDirector.collectSubstitutionsPaths(GdbSourceLookupDirector.java:146)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupDirector.getSubstitutionsPaths(GdbSourceLookupDirector.java:72)
+	at org.eclipse.cdt.dsf.gdb.service.GDBSourceLookup.getSubstitutionsPaths(GDBSourceLookup.java:124)
+	at org.eclipse.cdt.dsf.gdb.service.GDBSourceLookup.sourceContainersChanged(GDBSourceLookup.java:139)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupParticipant.sourceContainersChangedOnDispatchThread(GdbSourceLookupParticipant.java:120)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupParticipant$1.run(GdbSourceLookupParticipant.java:85)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
