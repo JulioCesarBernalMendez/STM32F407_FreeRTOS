@@ -14,6 +14,8 @@ org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:App_004_Example_4.1_Creating_Ta
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:App_004_Example_4.1_Creating_Tasks_v2/activeLaunchTarget=null\:---
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:App_005_Example_4.2_Using_Task_Parameter/activeLaunchMode=debug
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:App_005_Example_4.2_Using_Task_Parameter/activeLaunchTarget=null\:---
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:App_006_Example_4.3_Experimenting_Priorities/activeLaunchMode=debug
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:App_006_Example_4.3_Experimenting_Priorities/activeLaunchTarget=null\:---
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:App_009_Example_4.6_Combine_Blocking_and_Non_Blocking_Tasks/activeLaunchMode=debug
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:App_009_Example_4.6_Combine_Blocking_and_Non_Blocking_Tasks/activeLaunchTarget=null\:---
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:App_010_Example_4.7_Defining_Idle_Task_Hook_Function\ Debug/activeLaunchMode=debug
