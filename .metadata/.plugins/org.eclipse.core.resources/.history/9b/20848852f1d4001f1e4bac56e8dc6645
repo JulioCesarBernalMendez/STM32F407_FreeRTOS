@@ -1,6 +1,0 @@
-ThirdParty/SystemView_Src_V354/SEGGER/SEGGER_RTT_printf.o: \
- ../ThirdParty/SystemView_Src_V354/SEGGER/SEGGER_RTT_printf.c \
- ../ThirdParty/SystemView_Src_V354/SEGGER/SEGGER_RTT.h \
- C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_007_Example_4.4_Blocked_State_To_Delay/ThirdParty/SystemView_Src_V354/Config/SEGGER_RTT_Conf.h
-../ThirdParty/SystemView_Src_V354/SEGGER/SEGGER_RTT.h:
-C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_007_Example_4.4_Blocked_State_To_Delay/ThirdParty/SystemView_Src_V354/Config/SEGGER_RTT_Conf.h:

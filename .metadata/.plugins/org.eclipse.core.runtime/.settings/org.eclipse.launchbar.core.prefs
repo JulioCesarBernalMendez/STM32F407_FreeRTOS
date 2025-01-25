@@ -25,6 +25,8 @@ org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:App_010_Example_4.7_Defining_Id
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:App_010_Example_4.7_Defining_Idle_Task_Hook_Function/activeLaunchTarget=null\:---
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:App_011_Example_4.8_Changing_Task_Priorities/activeLaunchMode=debug
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:App_011_Example_4.8_Changing_Task_Priorities/activeLaunchTarget=null\:---
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:App_012_Example_4.9_Deleting_Tasks/activeLaunchMode=debug
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:App_012_Example_4.9_Deleting_Tasks/activeLaunchTarget=null\:---
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:App_013_Example_5.1_Blocking_When_Receiving_From_Queue/activeLaunchMode=debug
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:App_013_Example_5.1_Blocking_When_Receiving_From_Queue/activeLaunchTarget=null\:---
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:App_018_Example_6.1_Create_One_Shot_and_Auto_Reload_Timers\ Debug/activeLaunchMode=debug
