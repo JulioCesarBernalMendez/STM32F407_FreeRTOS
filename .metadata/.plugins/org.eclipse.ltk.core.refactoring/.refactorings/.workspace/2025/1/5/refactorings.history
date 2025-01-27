@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;App_014_Example_5.2_Block_When_Send_Queue_and_Send_Struct_Queue/Debug&apos;" deleteContents="false" description="Delete resource &apos;App_014_Example_5.2_Block_When_Send_Queue_and_Send_Struct_Queue/Debug&apos;" element1="/App_014_Example_5.2_Block_When_Send_Queue_and_Send_Struct_Queue/Debug" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1737999887253"/>
+</session>

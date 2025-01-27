@@ -2,7 +2,7 @@ LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
 activeLaunchTarget=null\:---
-configDescList=
+configDescList=org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:App_014_Example_5.2_Block_When_Send_Queue_and_Send_Struct_Queue
 eclipse.preferences.version=1
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:App_001_Blinky/activeLaunchMode=debug
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:App_001_Blinky/activeLaunchTarget=null\:---
@@ -29,6 +29,8 @@ org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:App_012_Example_4.9_Deleting_Ta
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:App_012_Example_4.9_Deleting_Tasks/activeLaunchTarget=null\:---
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:App_013_Example_5.1_Blocking_When_Receiving_From_Queue/activeLaunchMode=debug
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:App_013_Example_5.1_Blocking_When_Receiving_From_Queue/activeLaunchTarget=null\:---
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:App_014_Example_5.2_Block_When_Send_Queue_and_Send_Struct_Queue/activeLaunchMode=debug
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:App_014_Example_5.2_Block_When_Send_Queue_and_Send_Struct_Queue/activeLaunchTarget=null\:---
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:App_018_Example_6.1_Create_One_Shot_and_Auto_Reload_Timers\ Debug/activeLaunchMode=debug
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:App_018_Example_6.1_Create_One_Shot_and_Auto_Reload_Timers\ Debug/activeLaunchTarget=null\:---
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:App_019_Example_6.2_Use_Callback_Function_Param_and_SW_Timer_ID/activeLaunchMode=debug
