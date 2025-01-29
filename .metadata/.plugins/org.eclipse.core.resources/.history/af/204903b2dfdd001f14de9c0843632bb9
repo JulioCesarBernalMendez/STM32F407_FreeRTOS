@@ -1,0 +1,20 @@
+Core/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.o: \
+ ../Core/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c \
+ C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_015_Example_5.3_Using_a_Queue_Set/Core/FreeRTOS/Source/include/FreeRTOS.h \
+ C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_015_Example_5.3_Using_a_Queue_Set/Core/FreeRTOS/FreeRTOSConfig.h \
+ C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_015_Example_5.3_Using_a_Queue_Set/Core/FreeRTOS/Source/include/projdefs.h \
+ C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_015_Example_5.3_Using_a_Queue_Set/Core/FreeRTOS/Source/include/portable.h \
+ C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_015_Example_5.3_Using_a_Queue_Set/Core/FreeRTOS/Source/include/deprecated_definitions.h \
+ C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_015_Example_5.3_Using_a_Queue_Set/Core/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h \
+ C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_015_Example_5.3_Using_a_Queue_Set/Core/FreeRTOS/Source/include/mpu_wrappers.h \
+ C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_015_Example_5.3_Using_a_Queue_Set/Core/FreeRTOS/Source/include/task.h \
+ C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_015_Example_5.3_Using_a_Queue_Set/Core/FreeRTOS/Source/include/list.h
+C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_015_Example_5.3_Using_a_Queue_Set/Core/FreeRTOS/Source/include/FreeRTOS.h:
+C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_015_Example_5.3_Using_a_Queue_Set/Core/FreeRTOS/FreeRTOSConfig.h:
+C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_015_Example_5.3_Using_a_Queue_Set/Core/FreeRTOS/Source/include/projdefs.h:
+C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_015_Example_5.3_Using_a_Queue_Set/Core/FreeRTOS/Source/include/portable.h:
+C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_015_Example_5.3_Using_a_Queue_Set/Core/FreeRTOS/Source/include/deprecated_definitions.h:
+C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_015_Example_5.3_Using_a_Queue_Set/Core/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h:
+C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_015_Example_5.3_Using_a_Queue_Set/Core/FreeRTOS/Source/include/mpu_wrappers.h:
+C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_015_Example_5.3_Using_a_Queue_Set/Core/FreeRTOS/Source/include/task.h:
+C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_015_Example_5.3_Using_a_Queue_Set/Core/FreeRTOS/Source/include/list.h:
