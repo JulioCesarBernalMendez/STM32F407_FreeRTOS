@@ -63,7 +63,7 @@
 
 /* Private macro -------------------------------------------------------------*/
 /* USER CODE BEGIN PM */
-#define STRING_SIZE    (24)
+#define STRING_SIZE    (33)
 /* USER CODE END PM */
 
 /* Private variables ---------------------------------------------------------*/
@@ -91,6 +91,7 @@ static void MX_GPIO_Init(void);
 static void MX_USART2_UART_Init(void);
 /* USER CODE BEGIN PFP */
 void UART2_Print_Text( UART_HandleTypeDef *huart, const char *text );
+
 static void vUpdateMailboxTask( void *pvParameters );
 static void vPeekMailboxTask( void *pvParameters );
 /* USER CODE END PFP */
@@ -131,6 +132,14 @@ int main(void)
   MX_GPIO_Init();
   MX_USART2_UART_Init();
   /* USER CODE BEGIN 2 */
+  /* enable CYCCNT (Cycle Count, needed for SEGGER SystemView) in DWT_CTRL register */
+  DWT->CTRL |= DWT_CTRL_CYCCNTENA_Msk;
+
+  /* initialize and configure SEGGER SystemView */
+  SEGGER_SYSVIEW_Conf();
+
+  /* start recording SEGGER SystemView events */
+  SEGGER_SYSVIEW_Start();
 
   /* Create the queue that is going to be used as a mailbox.
      The queue has a length of 1 to allow it to be used with the xQueueOverWrite() API */
@@ -337,7 +346,9 @@ static void vUpdateMailboxTask( void *pvParameters )
     ( void ) xQueueOverwrite( xMailbox, &xData );
 
     /* print the data sent to the mailbox */
-    ( void ) snprintf( pcStr, STRING_SIZE, "Data Sent = %lu\n\r", ulNewValue );
+    ( void ) snprintf( pcStr, STRING_SIZE, "Data Sent        = %lu\n\r", xData.ulValue );
+    UART2_Print_Text( &huart2, ( const char * ) pcStr );
+    ( void ) snprintf( pcStr, STRING_SIZE, "Timestamp Sent   = %lu\n\r", xData.xTimeStamp );
     UART2_Print_Text( &huart2, ( const char * ) pcStr );
 
     /* increment the variable so that the data overwritten into the mailbox is different on each
@@ -376,9 +387,9 @@ static void vPeekMailboxTask( void *pvParameters )
     ( void ) xQueuePeek( xMailbox, &xMailboxPeek, 0 );
 
     /* print the data peeked from the mailbox */
-    ( void ) snprintf( pcStr, STRING_SIZE, "Data Peeked = %lu\n\r", xMailboxPeek.ulValue );
+    ( void ) snprintf( pcStr, STRING_SIZE, "Data Peeked      = %lu\n\r", xMailboxPeek.ulValue );
     UART2_Print_Text( &huart2, ( const char * ) pcStr );
-    ( void ) snprintf( pcStr, 24, "Timestamp = %lu\n\n\r", xMailboxPeek.xTimeStamp );
+    ( void ) snprintf( pcStr, STRING_SIZE, "Timestamp Peeked = %lu\n\n\r", xMailboxPeek.xTimeStamp );
     UART2_Print_Text( &huart2, ( const char * ) pcStr );
 
     /* place this task into Blocked state for a 100ms-period */
