@@ -37,7 +37,7 @@
  *          The auto-reload timer's executes the callback with a fixed period of 500 ticks
  *          as specified by mainAUTO_RELOAD_TIMER_PERIOD.
  *
- *          The one-shot timer's executes the callback only once, when the tick count is 3333 ticks
+ *          The one-shot timer's executes the callback only once, when the tick count is 3100 ticks
  *          as specified by mainONE_SHOT_TIMER_PERIOD.
  * 
  *          pvTimerCallback():
@@ -74,9 +74,9 @@
 /* USER CODE BEGIN PD */
 #define STRING_SIZE                     (50)
 
-/* the periods assigned to the one-shot and auto-reload timers are 3.333 seconds
+/* the periods assigned to the one-shot and auto-reload timers are 3.100 seconds
    and 0.5 seconds respectively */
-#define mainONE_SHOT_TIMER_PERIOD       pdMS_TO_TICKS( 3333 )
+#define mainONE_SHOT_TIMER_PERIOD       pdMS_TO_TICKS( 3100 )
 #define mainAUTO_RELOAD_TIMER_PERIOD    pdMS_TO_TICKS( 500 )
 /* USER CODE END PD */
 
@@ -145,6 +145,15 @@ int main(void)
   MX_GPIO_Init();
   MX_USART2_UART_Init();
   /* USER CODE BEGIN 2 */
+  /* enable CYCCNT (Cycle Count, needed for SEGGER SystemView) in DWT_CTRL register */
+  DWT->CTRL |= DWT_CTRL_CYCCNTENA_Msk;
+
+  /* initialize and configure SEGGER SystemView */
+  SEGGER_SYSVIEW_Conf();
+
+  /* start recording SEGGER SystemView events */
+  SEGGER_SYSVIEW_Start();
+
   /* create the one-shot timer, storing the handle to the created timer in xOneShotTimer */
   xOneShotTimer = xTimerCreate( "OneShot", /* text name for the software timer - not used by FreeRTOS */
                                 mainONE_SHOT_TIMER_PERIOD, /* software timer's period in ticks */

@@ -57,7 +57,7 @@
 /* USER CODE BEGIN PD */
 #define STRING_SIZE                     (50)
 
-/* the periods assigned to the one-shot and auto-reload timers are 3.0 seconds
+/* the periods assigned to the one-shot and auto-reload timers are 3.100 seconds
    and 0.5 seconds respectively */
 #define mainONE_SHOT_TIMER_PERIOD       pdMS_TO_TICKS( 3100 )
 #define mainAUTO_RELOAD_TIMER_PERIOD    pdMS_TO_TICKS( 500 )
