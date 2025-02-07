@@ -28,7 +28,7 @@
  *          - Remains on when the button is pressed again within a certain time period.
  *          - Automatically turns off if the button is not pressed within a certain time period.
  * 
- *          A one-shot timer (5 seconds) is used to implement this behavior:
+ *          A one-shot timer (2 seconds) is used to implement this behavior:
  *          - The simulated backlight is turned on when a key is pressed, and turned off in the
  *            software timer's callback function (vBacklightTimerCallback).
  *          - The software timer is reset each time a key is pressed.
@@ -66,8 +66,8 @@
 /* USER CODE BEGIN PD */
 #define STRING_SIZE                   (62)
 
-/* the period assigned to the one-shot timer is 5000 milliseconds */
-#define mainBACKLIGHT_TIMER_PERIOD    pdMS_TO_TICKS( 5000 )
+/* the period assigned to the one-shot timer is 2000 milliseconds */
+#define mainBACKLIGHT_TIMER_PERIOD    pdMS_TO_TICKS( 2000 )
 /* USER CODE END PD */
 
 /* Private macro -------------------------------------------------------------*/
@@ -142,6 +142,15 @@ int main(void)
   MX_GPIO_Init();
   MX_USART2_UART_Init();
   /* USER CODE BEGIN 2 */
+  /* enable CYCCNT (Cycle Count, needed for SEGGER SystemView) in DWT_CTRL register */
+  DWT->CTRL |= DWT_CTRL_CYCCNTENA_Msk;
+
+  /* initialize and configure SEGGER SystemView */
+  SEGGER_SYSVIEW_Conf();
+
+  /* start recording SEGGER SystemView events */
+  SEGGER_SYSVIEW_Start();
+  
   /* create the button polling task */
   xButtonTaskCreated =  xTaskCreate( vButtonHitTask, "Button", 1000, NULL, 1, NULL );
 
