@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete 2 resources" deleteContents="false" description="Delete 2 resources" element1="/App_021_Example_7.1_Binary_Semaphore_Synch_Task_With_Interrupt/Debug" element2="/App_021_Example_7.1_Binary_Semaphore_Synch_Task_With_Interrupt/App_021_Example_7.1_Binary_Semaphore_Synch_Task_With_Interrupt.launch" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="2" stamp="1739205110146"/>
+</session>
