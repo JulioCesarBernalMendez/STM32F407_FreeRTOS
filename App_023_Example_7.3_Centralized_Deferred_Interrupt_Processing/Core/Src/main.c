@@ -147,6 +147,15 @@ int main(void)
   MX_USART2_UART_Init();
   MX_TIM3_Init();
   /* USER CODE BEGIN 2 */
+  /* enable CYCCNT (Cycle Count, needed for SEGGER SystemView) in DWT_CTRL register */
+  DWT->CTRL |= DWT_CTRL_CYCCNTENA_Msk;
+
+  /* initialize and configure SEGGER SystemView */
+  SEGGER_SYSVIEW_Conf();
+
+  /* start recording SEGGER SystemView events */
+  SEGGER_SYSVIEW_Start();
+  
   /* Create the task that will start the TIM3 timeout interrupt. This will only
      run once before being deleted by itself since it won't be needed anymore */
   xTaskCreate( vTim3InterruptEnablingTask, "TIM3 INT start", 1000, NULL, 1, NULL );
