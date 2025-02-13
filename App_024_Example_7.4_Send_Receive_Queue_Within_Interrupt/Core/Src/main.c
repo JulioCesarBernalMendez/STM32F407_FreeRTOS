@@ -146,6 +146,15 @@ int main(void)
   MX_GPIO_Init();
   MX_USART2_UART_Init();
   /* USER CODE BEGIN 2 */
+  /* enable CYCCNT (Cycle Count, needed for SEGGER SystemView) in DWT_CTRL register */
+  DWT->CTRL |= DWT_CTRL_CYCCNTENA_Msk;
+
+  /* initialize and configure SEGGER SystemView */
+  SEGGER_SYSVIEW_Conf();
+
+  /* start recording SEGGER SystemView events */
+  SEGGER_SYSVIEW_Start();
+
   /* Before a queue can be used it must first be created.
      Create both queues used by this example:
      - one queue can hold variables of type uint32_t
@@ -159,7 +168,7 @@ int main(void)
 
   /* Create the task that uses a queue to pass integers to the EXTI0 interrupt
      service routine. The task is created at priority 1 */
-     xTaskCreate( vIntegerGenerator, "IntGen", 1000, NULL, 1, NULL );
+  xTaskCreate( vIntegerGenerator, "IntGen", 1000, NULL, 1, NULL );
 
   /* Create the task that prints out the strings sent to it from the EXTI0
      interrupt service routine. This task is created at a higher priority of 2 */
