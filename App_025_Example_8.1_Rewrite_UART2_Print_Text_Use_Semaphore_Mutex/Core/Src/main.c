@@ -131,7 +131,16 @@ int main(void)
   MX_GPIO_Init();
   MX_USART2_UART_Init();
   /* USER CODE BEGIN 2 */
-  /* Before a mutex (semaphore) is used, it must be explicitly be created.
+  /* enable CYCCNT (Cycle Count, needed for SEGGER SystemView) in DWT_CTRL register */
+  DWT->CTRL |= DWT_CTRL_CYCCNTENA_Msk;
+
+  /* initialize and configure SEGGER SystemView */
+  SEGGER_SYSVIEW_Conf();
+
+  /* start recording SEGGER SystemView events */
+  SEGGER_SYSVIEW_Start();
+
+  /* Before a mutex (semaphore) is used, it must be explicitly created.
      In this example a mutex type semaphore is created */
   xMutex = xSemaphoreCreateMutex();
 

@@ -1,0 +1,18 @@
+ThirdParty/SystemView_Src_V354/SEGGER/SEGGER_SYSVIEW.o: \
+ ../ThirdParty/SystemView_Src_V354/SEGGER/SEGGER_SYSVIEW.c \
+ ../ThirdParty/SystemView_Src_V354/SEGGER/SEGGER_SYSVIEW_Int.h \
+ ../ThirdParty/SystemView_Src_V354/SEGGER/SEGGER_SYSVIEW.h \
+ ../ThirdParty/SystemView_Src_V354/SEGGER/SEGGER.h \
+ C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_025_Example_8.1_Rewrite_UART2_Print_Text_Use_Semaphore_Mutex/ThirdParty/SystemView_Src_V354/Config/Global.h \
+ ../ThirdParty/SystemView_Src_V354/SEGGER/SEGGER_SYSVIEW_ConfDefaults.h \
+ C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_025_Example_8.1_Rewrite_UART2_Print_Text_Use_Semaphore_Mutex/ThirdParty/SystemView_Src_V354/Config/SEGGER_SYSVIEW_Conf.h \
+ C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_025_Example_8.1_Rewrite_UART2_Print_Text_Use_Semaphore_Mutex/ThirdParty/SystemView_Src_V354/Config/SEGGER_RTT_Conf.h \
+ ../ThirdParty/SystemView_Src_V354/SEGGER/SEGGER_RTT.h
+../ThirdParty/SystemView_Src_V354/SEGGER/SEGGER_SYSVIEW_Int.h:
+../ThirdParty/SystemView_Src_V354/SEGGER/SEGGER_SYSVIEW.h:
+../ThirdParty/SystemView_Src_V354/SEGGER/SEGGER.h:
+C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_025_Example_8.1_Rewrite_UART2_Print_Text_Use_Semaphore_Mutex/ThirdParty/SystemView_Src_V354/Config/Global.h:
+../ThirdParty/SystemView_Src_V354/SEGGER/SEGGER_SYSVIEW_ConfDefaults.h:
+C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_025_Example_8.1_Rewrite_UART2_Print_Text_Use_Semaphore_Mutex/ThirdParty/SystemView_Src_V354/Config/SEGGER_SYSVIEW_Conf.h:
+C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_025_Example_8.1_Rewrite_UART2_Print_Text_Use_Semaphore_Mutex/ThirdParty/SystemView_Src_V354/Config/SEGGER_RTT_Conf.h:
+../ThirdParty/SystemView_Src_V354/SEGGER/SEGGER_RTT.h:
