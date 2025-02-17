@@ -1,0 +1,6 @@
+ThirdParty/SystemView_Src_V354/SEGGER/SEGGER_RTT_printf.o: \
+ ../ThirdParty/SystemView_Src_V354/SEGGER/SEGGER_RTT_printf.c \
+ ../ThirdParty/SystemView_Src_V354/SEGGER/SEGGER_RTT.h \
+ C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_026_Example_8.2_Alternative_Print_Task_Using_Gatekeeper/ThirdParty/SystemView_Src_V354/Config/SEGGER_RTT_Conf.h
+../ThirdParty/SystemView_Src_V354/SEGGER/SEGGER_RTT.h:
+C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_026_Example_8.2_Alternative_Print_Task_Using_Gatekeeper/ThirdParty/SystemView_Src_V354/Config/SEGGER_RTT_Conf.h:

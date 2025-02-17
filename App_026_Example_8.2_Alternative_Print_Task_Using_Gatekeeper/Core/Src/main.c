@@ -31,7 +31,7 @@
  * 
  *          The tick hook function (vApplicationTickHook()) counts the number of times it's called,
  *          sending its message to the gatekeeper task (prvUART2GatekeeperTask()) each time the count
- *          reaches 200.
+ *          reaches 150.
  *          For demonstration purposes only the tick hook writes to the front
  *          of the queue, and the print tasks write to the back of the queue.
  * 
@@ -152,6 +152,15 @@ int main(void)
   MX_GPIO_Init();
   MX_USART2_UART_Init();
   /* USER CODE BEGIN 2 */
+  /* enable CYCCNT (Cycle Count, needed for SEGGER SystemView) in DWT_CTRL register */
+  DWT->CTRL |= DWT_CTRL_CYCCNTENA_Msk;
+
+  /* initialize and configure SEGGER SystemView */
+  SEGGER_SYSVIEW_Conf();
+
+  /* start recording SEGGER SystemView events */
+  SEGGER_SYSVIEW_Start();
+
   /* Before a queue is used it must be explicitly created.
      The queue is created to hold a maximum of 5 character pointers */
   xPrintQueue = xQueueCreate( 5, sizeof( char * ) );
@@ -345,19 +354,19 @@ void vApplicationTickHook( void )
 {
   static int iCount = 0;
 
-  /* Print out a message every 200 ticks.
+  /* Print out a message every 150 ticks.
      The message is not written out directly, but sent to the gatekeeper task */
   
   iCount++;
 
-  if ( iCount >= 200 )
+  if ( iCount >= 150 )
   {
     /* As xQueueSendToFrontFromISR() is being called from the tick hook, it is not
        necessary to use the xHigherPriorityTaskWoken parameter (the third parameter),
        and the parameter is set to NULL */
     xQueueSendToFrontFromISR( xPrintQueue, &pcStringsToPrint[ 2 ], NULL );
 
-    /* reset the count ready to print out the string again in 200 ticks time */
+    /* reset the count ready to print out the string again in 150 ticks time */
     iCount = 0;
   }
 }
