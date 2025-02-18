@@ -185,6 +185,15 @@ int main(void)
   MX_USART2_UART_Init();
   MX_TIM3_Init();
   /* USER CODE BEGIN 2 */
+  /* enable CYCCNT (Cycle Count, needed for SEGGER SystemView) in DWT_CTRL register */
+  DWT->CTRL |= DWT_CTRL_CYCCNTENA_Msk;
+
+  /* initialize and configure SEGGER SystemView */
+  SEGGER_SYSVIEW_Conf();
+
+  /* start recording SEGGER SystemView events */
+  SEGGER_SYSVIEW_Start();
+  
   /* before an event group can be used, it must first be created */
   xEventGroup = xEventGroupCreate();
 
@@ -454,7 +463,7 @@ static void vEventBitReadingTask( void *pvParameter )
     xEventGroupValue = xEventGroupWaitBits( xEventGroup,    /* the event group to read */
                                             xBitsToWaitFor, /* bits to test */
                                             pdTRUE,         /* clear bits on exit if the unblock condition is met */
-											pdFALSE,        /* Don't wait for all bits. This parameter is set to
+                                            pdFALSE,        /* Don't wait for all bits. This parameter is set to
                                                                pdTRUE for the second execution */
                                             portMAX_DELAY   /* don't time out */
                                           );
