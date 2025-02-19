@@ -1,0 +1,10 @@
+11:39:06 **** Incremental Build of configuration Debug for project App_028_Example_9.2_Synchronizing_Tasks_with_Event_Group ****
+make -j8 all 
+arm-none-eabi-size  App_028_Example_9.2_Synchronizing_Tasks_with_Event_Group.elf 
+   text	   data	    bss	    dec	    hex	filename
+  35560	    112	 130136	 165808	  287b0	App_028_Example_9.2_Synchronizing_Tasks_with_Event_Group.elf
+Finished building: default.size.stdout
+ 
+
+11:39:07 Build Finished. 0 errors, 0 warnings. (took 357ms)
+

@@ -1,0 +1,8 @@
+../Core/Src/main.c:107:5:main	16	static
+../Core/Src/main.c:179:6:SystemClock_Config	88	static
+../Core/Src/main.c:226:13:MX_USART2_UART_Init	8	static
+../Core/Src/main.c:259:13:MX_GPIO_Init	48	static
+../Core/Src/main.c:300:6:UART2_Print_Text	24	static
+../Core/Src/main.c:312:13:vSyncingTask	56	static
+../Core/Src/main.c:374:6:HAL_TIM_PeriodElapsedCallback	16	static
+../Core/Src/main.c:391:6:Error_Handler	4	static,ignoring_inline_asm

@@ -7363,3 +7363,803 @@ java.io.FileNotFoundException: C:\Users\julio\Downloads\STM32F407_FreeRTOS\App_0
 	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2478)
 	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
 	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+!SESSION 2025-02-19 10:14:12.153 -----------------------------------------------
+eclipse.buildId=Version 1.17.0
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-02-19 10:15:47.944
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-02-19 10:15:47.948
+!MESSAGE Log4j2 initialized with config file C:\Users\julio\Downloads\STM32F407_FreeRTOS\.metadata\.log4j2.xml
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-02-19 10:16:02.064
+!MESSAGE Failed to open C/C++ index file C:\Users\julio\Downloads\STM32F407_FreeRTOS\.metadata\.plugins\org.eclipse.cdt.core\App_007_Example_4.4_Blocked_State_To_Delay.1724295333874.pdom - rebuilding the index
+!STACK 1
+org.eclipse.core.runtime.CoreException: Corrupted database: App_007_Example_4.4_Blocked_State_To_Delay.1724295333874.pdom
+	at org.eclipse.cdt.internal.core.pdom.db.Database.databaseCorruptionDetected(Database.java:323)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.getChunk(Database.java:303)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.getRecPtr(Database.java:518)
+	at org.eclipse.cdt.internal.core.pdom.dom.PDOMLinkage.getLinkageID(PDOMLinkage.java:140)
+	at org.eclipse.cdt.internal.core.pdom.PDOM.readLinkages(PDOM.java:479)
+	at org.eclipse.cdt.internal.core.pdom.PDOM.loadDatabase(PDOM.java:460)
+	at org.eclipse.cdt.internal.core.pdom.PDOM.<init>(PDOM.java:435)
+	at org.eclipse.cdt.internal.core.pdom.WritablePDOM.<init>(WritablePDOM.java:67)
+	at org.eclipse.cdt.internal.core.pdom.WritablePDOM.<init>(WritablePDOM.java:62)
+	at org.eclipse.cdt.internal.core.pdom.PDOMManager.getOrCreatePDOM(PDOMManager.java:391)
+	at org.eclipse.cdt.internal.core.pdom.PDOMManager.createIndexer(PDOMManager.java:592)
+	at org.eclipse.cdt.internal.core.pdom.PDOMSetupJob.run(PDOMSetupJob.java:61)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.cdt.core 4 0 2025-02-19 10:16:02.066
+!MESSAGE Corrupted database: App_007_Example_4.4_Blocked_State_To_Delay.1724295333874.pdom
+
+!ENTRY org.eclipse.cdt.core 4 0 2025-02-19 10:16:02.069
+!MESSAGE Error
+!STACK 1
+org.eclipse.core.runtime.CoreException: Corrupted database: App_007_Example_4.4_Blocked_State_To_Delay.1724295333874.pdom
+	at org.eclipse.cdt.internal.core.pdom.db.Database.databaseCorruptionDetected(Database.java:323)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.getChunk(Database.java:303)
+	at org.eclipse.cdt.internal.core.pdom.db.Database.getRecPtr(Database.java:518)
+	at org.eclipse.cdt.internal.core.pdom.dom.PDOMLinkage.getLinkageID(PDOMLinkage.java:140)
+	at org.eclipse.cdt.internal.core.pdom.PDOM.readLinkages(PDOM.java:479)
+	at org.eclipse.cdt.internal.core.pdom.PDOM.loadDatabase(PDOM.java:460)
+	at org.eclipse.cdt.internal.core.pdom.PDOM.<init>(PDOM.java:435)
+	at org.eclipse.cdt.internal.core.pdom.WritablePDOM.<init>(WritablePDOM.java:67)
+	at org.eclipse.cdt.internal.core.pdom.WritablePDOM.<init>(WritablePDOM.java:62)
+	at org.eclipse.cdt.internal.core.pdom.PDOMManager.getOrCreatePDOM(PDOMManager.java:399)
+	at org.eclipse.cdt.internal.core.pdom.PDOMManager.createIndexer(PDOMManager.java:592)
+	at org.eclipse.cdt.internal.core.pdom.PDOMSetupJob.run(PDOMSetupJob.java:61)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.cdt.core 4 0 2025-02-19 10:16:02.069
+!MESSAGE Corrupted database: App_007_Example_4.4_Blocked_State_To_Delay.1724295333874.pdom
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-02-19 10:16:07.824
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.core.resources 4 4 2025-02-19 10:28:19.670
+!MESSAGE Exception occurred while saving project preferences: /App_028_Example_9.2_Synchronizing Tasks_with_Event_Group/.settings/com.st.stm32cube.ide.mcu.sfrview.prefs.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/App_028_Example_9.2_Synchronizing Tasks_with_Event_Group)[368]: java.lang.Exception: Resource '/App_028_Example_9.2_Synchronizing Tasks_with_Event_Group' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:367)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:241)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:183)
+	at org.eclipse.core.internal.resources.Folder.assertCreateRequirements(Folder.java:43)
+	at org.eclipse.core.internal.resources.Folder.create(Folder.java:101)
+	at org.eclipse.core.internal.resources.ProjectPreferences.lambda$1(ProjectPreferences.java:736)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2453)
+	at org.eclipse.core.internal.resources.ProjectPreferences.save(ProjectPreferences.java:761)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.internalFlush(EclipsePreferences.java:429)
+	at org.eclipse.core.internal.resources.ProjectPreferences.flush(ProjectPreferences.java:465)
+	at com.st.stm32cube.ide.mcu.sfrview.state.ProjectStateManager.persistState(ProjectStateManager.java:95)
+	at com.st.stm32cube.ide.mcu.sfrview.state.ProjectStateManager.refresh(ProjectStateManager.java:45)
+	at com.st.stm32cube.ide.mcu.sfrview.ui.SfrView.svdModelChanged(SfrView.java:1860)
+	at com.st.stm32cube.ide.mcu.sfr.model.SfrRegisterModel.notifyListeners(SfrRegisterModel.java:1180)
+	at com.st.stm32cube.ide.mcu.sfr.model.SfrRegisterModel.refresh(SfrRegisterModel.java:1211)
+	at com.st.stm32cube.ide.mcu.sfr.model.SfrRegisterModel.refresh(SfrRegisterModel.java:1198)
+	at com.st.stm32cube.ide.mcu.sfr.model.SfrRegisterModel.selectionChanged(SfrRegisterModel.java:1163)
+	at org.eclipse.ui.internal.e4.compatibility.SelectionService.notifyListeners(SelectionService.java:266)
+	at org.eclipse.ui.internal.e4.compatibility.SelectionService.handleSelectionChanged(SelectionService.java:98)
+	at org.eclipse.ui.internal.e4.compatibility.SelectionService.lambda$0(SelectionService.java:72)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator$1.run(SelectionAggregator.java:123)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator.notifyListeners(SelectionAggregator.java:120)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator$5.lambda$0(SelectionAggregator.java:220)
+	at org.eclipse.e4.core.contexts.RunAndTrack.runExternalCode(RunAndTrack.java:59)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator$5.changed(SelectionAggregator.java:220)
+	at org.eclipse.e4.core.internal.contexts.TrackableComputationExt.update(TrackableComputationExt.java:105)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.processScheduled(EclipseContext.java:358)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.set(EclipseContext.java:374)
+	at org.eclipse.e4.ui.internal.workbench.SelectionServiceImpl.setSelection(SelectionServiceImpl.java:34)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.selectionChanged(CompatibilityPart.java:471)
+	at org.eclipse.jface.viewers.Viewer$1.run(Viewer.java:151)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.viewers.Viewer.fireSelectionChanged(Viewer.java:148)
+	at org.eclipse.jface.viewers.StructuredViewer.updateSelection(StructuredViewer.java:2137)
+	at org.eclipse.jface.viewers.ColumnViewer.updateSelection(ColumnViewer.java:1060)
+	at org.eclipse.jface.viewers.StructuredViewer.handleSelect(StructuredViewer.java:1175)
+	at org.eclipse.ui.navigator.CommonViewer.handleSelect(CommonViewer.java:464)
+	at org.eclipse.jface.viewers.StructuredViewer$4.widgetSelected(StructuredViewer.java:1204)
+	at org.eclipse.jface.util.OpenStrategy.fireSelectionEvent(OpenStrategy.java:263)
+	at org.eclipse.jface.util.OpenStrategy$1.handleEvent(OpenStrategy.java:421)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4273)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4071)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3659)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:648)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:555)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2025-02-19 10:28:19.671
+!MESSAGE Resource '/App_028_Example_9.2_Synchronizing Tasks_with_Event_Group' does not exist.
+!STACK 0
+java.lang.Exception: Resource '/App_028_Example_9.2_Synchronizing Tasks_with_Event_Group' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:367)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:241)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:183)
+	at org.eclipse.core.internal.resources.Folder.assertCreateRequirements(Folder.java:43)
+	at org.eclipse.core.internal.resources.Folder.create(Folder.java:101)
+	at org.eclipse.core.internal.resources.ProjectPreferences.lambda$1(ProjectPreferences.java:736)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2453)
+	at org.eclipse.core.internal.resources.ProjectPreferences.save(ProjectPreferences.java:761)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.internalFlush(EclipsePreferences.java:429)
+	at org.eclipse.core.internal.resources.ProjectPreferences.flush(ProjectPreferences.java:465)
+	at com.st.stm32cube.ide.mcu.sfrview.state.ProjectStateManager.persistState(ProjectStateManager.java:95)
+	at com.st.stm32cube.ide.mcu.sfrview.state.ProjectStateManager.refresh(ProjectStateManager.java:45)
+	at com.st.stm32cube.ide.mcu.sfrview.ui.SfrView.svdModelChanged(SfrView.java:1860)
+	at com.st.stm32cube.ide.mcu.sfr.model.SfrRegisterModel.notifyListeners(SfrRegisterModel.java:1180)
+	at com.st.stm32cube.ide.mcu.sfr.model.SfrRegisterModel.refresh(SfrRegisterModel.java:1211)
+	at com.st.stm32cube.ide.mcu.sfr.model.SfrRegisterModel.refresh(SfrRegisterModel.java:1198)
+	at com.st.stm32cube.ide.mcu.sfr.model.SfrRegisterModel.selectionChanged(SfrRegisterModel.java:1163)
+	at org.eclipse.ui.internal.e4.compatibility.SelectionService.notifyListeners(SelectionService.java:266)
+	at org.eclipse.ui.internal.e4.compatibility.SelectionService.handleSelectionChanged(SelectionService.java:98)
+	at org.eclipse.ui.internal.e4.compatibility.SelectionService.lambda$0(SelectionService.java:72)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator$1.run(SelectionAggregator.java:123)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator.notifyListeners(SelectionAggregator.java:120)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator$5.lambda$0(SelectionAggregator.java:220)
+	at org.eclipse.e4.core.contexts.RunAndTrack.runExternalCode(RunAndTrack.java:59)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator$5.changed(SelectionAggregator.java:220)
+	at org.eclipse.e4.core.internal.contexts.TrackableComputationExt.update(TrackableComputationExt.java:105)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.processScheduled(EclipseContext.java:358)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.set(EclipseContext.java:374)
+	at org.eclipse.e4.ui.internal.workbench.SelectionServiceImpl.setSelection(SelectionServiceImpl.java:34)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.selectionChanged(CompatibilityPart.java:471)
+	at org.eclipse.jface.viewers.Viewer$1.run(Viewer.java:151)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.viewers.Viewer.fireSelectionChanged(Viewer.java:148)
+	at org.eclipse.jface.viewers.StructuredViewer.updateSelection(StructuredViewer.java:2137)
+	at org.eclipse.jface.viewers.ColumnViewer.updateSelection(ColumnViewer.java:1060)
+	at org.eclipse.jface.viewers.StructuredViewer.handleSelect(StructuredViewer.java:1175)
+	at org.eclipse.ui.navigator.CommonViewer.handleSelect(CommonViewer.java:464)
+	at org.eclipse.jface.viewers.StructuredViewer$4.widgetSelected(StructuredViewer.java:1204)
+	at org.eclipse.jface.util.OpenStrategy.fireSelectionEvent(OpenStrategy.java:263)
+	at org.eclipse.jface.util.OpenStrategy$1.handleEvent(OpenStrategy.java:421)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4273)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4071)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3659)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:648)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:555)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+
+!ENTRY org.eclipse.ui.workbench 4 2 2025-02-19 10:29:02.257
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.ui.workbench".
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.cdt.managedbuilder.core.IManagedBuildInfo.getDefaultConfiguration()" because "buildInfo" is null
+	at com.st.stm32cube.ide.mcu.build.ui.decorator.BoldDecorator.decorate(BoldDecorator.java:79)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:253)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:105)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:360)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:346)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.queue(DecorationScheduler.java:419)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:397)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.ui 4 4 2025-02-19 10:29:02.269
+!MESSAGE Exception in Decorator. The 'linkerDecorator' decorator will be disabled.
+!SUBENTRY 1 org.eclipse.ui 4 4 2025-02-19 10:29:02.269
+!MESSAGE Cannot invoke "org.eclipse.cdt.managedbuilder.core.IManagedBuildInfo.getDefaultConfiguration()" because "buildInfo" is null
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.cdt.managedbuilder.core.IManagedBuildInfo.getDefaultConfiguration()" because "buildInfo" is null
+	at com.st.stm32cube.ide.mcu.build.ui.decorator.BoldDecorator.decorate(BoldDecorator.java:79)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorDefinition.decorate(LightweightDecoratorDefinition.java:253)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager$LightweightRunnable.run(LightweightDecoratorManager.java:105)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.decorate(LightweightDecoratorManager.java:360)
+	at org.eclipse.ui.internal.decorators.LightweightDecoratorManager.getDecorations(LightweightDecoratorManager.java:346)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.queue(DecorationScheduler.java:419)
+	at org.eclipse.ui.internal.decorators.DecorationScheduler$1.run(DecorationScheduler.java:397)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.resources 4 77 2025-02-19 10:29:04.778
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2025-02-19 10:29:04.778
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2025-02-19 10:29:04.778
+!MESSAGE C:\Users\julio\Downloads\STM32F407_FreeRTOS\App_028_Example_9.2_Synchronizing_Tasks_with_Event_Group overlaps the location of another project: 'App_028_Example_9.2_Synchronizing_Tasks_with_Event_Group'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2025-02-19 10:29:04.779
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-02-19 10:29:08.979
+!MESSAGE Indexed 'App_028_Example_9.2_Synchronizing_Tasks_with_Event_Group' (23 sources, 130 headers) in 7.65 sec: 12,855 declarations; 60,928 references; 1 unresolved inclusions; 92 syntax errors; 240 unresolved names (0.32%)
+
+!ENTRY org.eclipse.core.resources 4 77 2025-02-19 10:31:17.062
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2025-02-19 10:31:17.062
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2025-02-19 10:31:17.062
+!MESSAGE C:\Users\julio\Downloads\STM32F407_FreeRTOS\App_028_Example_9.2_Synchronizing_Tasks_with_Event_Group overlaps the location of another project: 'App_028_Example_9.2_Synchronizing_Tasks_with_Event_Group'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2025-02-19 10:31:17.064
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-02-19 10:31:18.274
+!MESSAGE Indexed 'App_028_Example_9.2_Synchronizing_Tasks_with_Event_Group' (23 sources, 130 headers) in 4.65 sec: 12,855 declarations; 60,928 references; 1 unresolved inclusions; 92 syntax errors; 240 unresolved names (0.32%)
+
+!ENTRY org.eclipse.core.resources 4 77 2025-02-19 10:31:30.860
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2025-02-19 10:31:30.860
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2025-02-19 10:31:30.860
+!MESSAGE C:\Users\julio\Downloads\STM32F407_FreeRTOS\App_028_Example_9.2_Synchronizing_Tasks_with_Event_Group overlaps the location of another project: 'App_028_Example_9.2_Synchronizing_Tasks_with_Event_Group'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2025-02-19 10:31:30.860
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2025-02-19 10:31:32.980
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2025-02-19 10:31:32.980
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2025-02-19 10:31:32.980
+!MESSAGE C:\Users\julio\Downloads\STM32F407_FreeRTOS\App_028_Example_9.2_Synchronizing_Tasks_with_Event_Group overlaps the location of another project: 'App_028_Example_9.2_Synchronizing_Tasks_with_Event_Group'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2025-02-19 10:31:32.981
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2025-02-19 10:35:27.181
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2025-02-19 10:35:27.181
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2025-02-19 10:35:27.181
+!MESSAGE C:\Users\julio\Downloads\STM32F407_FreeRTOS\App_028_Example_9.2_Synchronizing_Tasks_with_Event_Group overlaps the location of another project: 'App_028_Example_9.2_Synchronizing_Tasks_with_Event_Group'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2025-02-19 10:35:27.181
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2025-02-19 10:35:29.041
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2025-02-19 10:35:29.041
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2025-02-19 10:35:29.042
+!MESSAGE C:\Users\julio\Downloads\STM32F407_FreeRTOS\App_028_Example_9.2_Synchronizing_Tasks_with_Event_Group overlaps the location of another project: 'App_028_Example_9.2_Synchronizing_Tasks_with_Event_Group'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2025-02-19 10:35:29.042
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2025-02-19 10:35:48.510
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2025-02-19 10:35:48.510
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2025-02-19 10:35:48.510
+!MESSAGE C:\Users\julio\Downloads\STM32F407_FreeRTOS\App_028_Example_9.2_Synchronizing_Tasks_with_Event_Group overlaps the location of another project: 'App_028_Example_9.2_Synchronizing_Tasks_with_Event_Group'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2025-02-19 10:35:48.511
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2025-02-19 10:36:05.054
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2025-02-19 10:36:05.054
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2025-02-19 10:36:05.054
+!MESSAGE C:\Users\julio\Downloads\STM32F407_FreeRTOS\App_028_Example_9.2_Synchronizing_Tasks_with_Event_Group overlaps the location of another project: 'App_028_Example_9.2_Synchronizing_Tasks_with_Event_Group'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2025-02-19 10:36:05.055
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2025-02-19 10:36:06.387
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2025-02-19 10:36:06.387
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2025-02-19 10:36:06.387
+!MESSAGE C:\Users\julio\Downloads\STM32F407_FreeRTOS\App_028_Example_9.2_Synchronizing_Tasks_with_Event_Group overlaps the location of another project: 'App_028_Example_9.2_Synchronizing_Tasks_with_Event_Group'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2025-02-19 10:36:06.387
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2025-02-19 10:36:23.528
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2025-02-19 10:36:23.529
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2025-02-19 10:36:23.529
+!MESSAGE C:\Users\julio\Downloads\STM32F407_FreeRTOS\App_028_Example_9.2_Synchronizing_Tasks_with_Event_Group overlaps the location of another project: 'App_028_Example_9.2_Synchronizing_Tasks_with_Event_Group'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2025-02-19 10:36:23.529
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2025-02-19 10:36:24.000
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2025-02-19 10:36:24.000
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2025-02-19 10:36:24.000
+!MESSAGE C:\Users\julio\Downloads\STM32F407_FreeRTOS\App_028_Example_9.2_Synchronizing_Tasks_with_Event_Group overlaps the location of another project: 'App_028_Example_9.2_Synchronizing_Tasks_with_Event_Group'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2025-02-19 10:36:24.001
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 4 2025-02-19 10:39:02.143
+!MESSAGE NullPointerException while trying to calculated source lookup path. This can be ignored if it occurs while terminating a debug session. See Bug 500988.
+!STACK 0
+java.lang.NullPointerException: Cannot read the array length because "containers" is null
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupDirector.collectSubstitutionsPaths(GdbSourceLookupDirector.java:102)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupDirector.collectSubstitutionsPaths(GdbSourceLookupDirector.java:146)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupDirector.getSubstitutionsPaths(GdbSourceLookupDirector.java:72)
+	at org.eclipse.cdt.dsf.gdb.service.GDBSourceLookup.getSubstitutionsPaths(GDBSourceLookup.java:124)
+	at org.eclipse.cdt.dsf.gdb.service.GDBSourceLookup.sourceContainersChanged(GDBSourceLookup.java:139)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupParticipant.sourceContainersChangedOnDispatchThread(GdbSourceLookupParticipant.java:120)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbSourceLookupParticipant$1.run(GdbSourceLookupParticipant.java:85)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+!ENTRY org.eclipse.core.resources 4 77 2025-02-19 11:19:20.745
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2025-02-19 11:19:20.745
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2025-02-19 11:19:20.745
+!MESSAGE C:\Users\julio\Downloads\STM32F407_FreeRTOS\App_028_Example_9.2_Synchronizing_Tasks_with_Event_Group overlaps the location of another project: 'App_028_Example_9.2_Synchronizing_Tasks_with_Event_Group'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2025-02-19 11:19:20.745
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2025-02-19 11:19:22.611
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2025-02-19 11:19:22.611
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2025-02-19 11:19:22.611
+!MESSAGE C:\Users\julio\Downloads\STM32F407_FreeRTOS\App_028_Example_9.2_Synchronizing_Tasks_with_Event_Group overlaps the location of another project: 'App_028_Example_9.2_Synchronizing_Tasks_with_Event_Group'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2025-02-19 11:19:22.611
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2025-02-19 11:19:32.829
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2025-02-19 11:19:32.829
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2025-02-19 11:19:32.829
+!MESSAGE C:\Users\julio\Downloads\STM32F407_FreeRTOS\App_028_Example_9.2_Synchronizing_Tasks_with_Event_Group overlaps the location of another project: 'App_028_Example_9.2_Synchronizing_Tasks_with_Event_Group'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2025-02-19 11:19:32.830
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2025-02-19 11:19:33.055
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2025-02-19 11:19:33.055
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2025-02-19 11:19:33.055
+!MESSAGE C:\Users\julio\Downloads\STM32F407_FreeRTOS\App_028_Example_9.2_Synchronizing_Tasks_with_Event_Group overlaps the location of another project: 'App_028_Example_9.2_Synchronizing_Tasks_with_Event_Group'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2025-02-19 11:19:33.055
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2025-02-19 11:19:38.536
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2025-02-19 11:19:38.536
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2025-02-19 11:19:38.536
+!MESSAGE C:\Users\julio\Downloads\STM32F407_FreeRTOS\App_028_Example_9.2_Synchronizing_Tasks_with_Event_Group overlaps the location of another project: 'App_028_Example_9.2_Synchronizing_Tasks_with_Event_Group'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2025-02-19 11:19:38.537
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2025-02-19 11:19:39.014
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2025-02-19 11:19:39.014
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2025-02-19 11:19:39.014
+!MESSAGE C:\Users\julio\Downloads\STM32F407_FreeRTOS\App_028_Example_9.2_Synchronizing_Tasks_with_Event_Group overlaps the location of another project: 'App_028_Example_9.2_Synchronizing_Tasks_with_Event_Group'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2025-02-19 11:19:39.015
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2025-02-19 11:36:50.907
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2025-02-19 11:36:50.907
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2025-02-19 11:36:50.907
+!MESSAGE C:\Users\julio\Downloads\STM32F407_FreeRTOS\App_028_Example_9.2_Synchronizing_Tasks_with_Event_Group overlaps the location of another project: 'App_028_Example_9.2_Synchronizing_Tasks_with_Event_Group'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2025-02-19 11:36:50.907
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2025-02-19 11:36:54.957
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2025-02-19 11:36:54.957
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2025-02-19 11:36:54.957
+!MESSAGE C:\Users\julio\Downloads\STM32F407_FreeRTOS\App_028_Example_9.2_Synchronizing_Tasks_with_Event_Group overlaps the location of another project: 'App_028_Example_9.2_Synchronizing_Tasks_with_Event_Group'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2025-02-19 11:36:54.959
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2025-02-19 11:36:55.182
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2025-02-19 11:36:55.182
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2025-02-19 11:36:55.182
+!MESSAGE C:\Users\julio\Downloads\STM32F407_FreeRTOS\App_028_Example_9.2_Synchronizing_Tasks_with_Event_Group overlaps the location of another project: 'App_028_Example_9.2_Synchronizing_Tasks_with_Event_Group'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2025-02-19 11:36:55.182
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2025-02-19 11:39:06.256
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2025-02-19 11:39:06.256
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2025-02-19 11:39:06.256
+!MESSAGE C:\Users\julio\Downloads\STM32F407_FreeRTOS\App_028_Example_9.2_Synchronizing_Tasks_with_Event_Group overlaps the location of another project: 'App_028_Example_9.2_Synchronizing_Tasks_with_Event_Group'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2025-02-19 11:39:06.257
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2025-02-19 11:39:06.739
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2025-02-19 11:39:06.739
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2025-02-19 11:39:06.739
+!MESSAGE C:\Users\julio\Downloads\STM32F407_FreeRTOS\App_028_Example_9.2_Synchronizing_Tasks_with_Event_Group overlaps the location of another project: 'App_028_Example_9.2_Synchronizing_Tasks_with_Event_Group'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2025-02-19 11:39:06.740
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2025-02-19 12:32:21.754
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2025-02-19 12:32:21.754
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2025-02-19 12:32:21.754
+!MESSAGE C:\Users\julio\Downloads\STM32F407_FreeRTOS\App_028_Example_9.2_Synchronizing_Tasks_with_Event_Group overlaps the location of another project: 'App_028_Example_9.2_Synchronizing_Tasks_with_Event_Group'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2025-02-19 12:32:21.754
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2025-02-19 12:32:34.195
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2025-02-19 12:32:34.195
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2025-02-19 12:32:34.195
+!MESSAGE C:\Users\julio\Downloads\STM32F407_FreeRTOS\App_028_Example_9.2_Synchronizing_Tasks_with_Event_Group overlaps the location of another project: 'App_028_Example_9.2_Synchronizing_Tasks_with_Event_Group'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2025-02-19 12:32:34.195
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2025-02-19 12:32:36.179
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2025-02-19 12:32:36.179
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2025-02-19 12:32:36.179
+!MESSAGE C:\Users\julio\Downloads\STM32F407_FreeRTOS\App_028_Example_9.2_Synchronizing_Tasks_with_Event_Group overlaps the location of another project: 'App_028_Example_9.2_Synchronizing_Tasks_with_Event_Group'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2025-02-19 12:32:36.180
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-02-19 12:33:27.689
+!MESSAGE Indexed 'App_028_Example_9.2_Synchronizing Tasks_with_Event_Group' (38 sources, 160 headers) in 11 sec: 17,140 declarations; 80,253 references; 2 unresolved inclusions; 230 syntax errors; 251 unresolved names (0.26%)
+
+!ENTRY org.eclipse.core.resources 4 4 2025-02-19 12:33:32.796
+!MESSAGE Exception occurred while saving project preferences: /App_028_Example_9.2_Synchronizing_Tasks_with_Event_Group/.settings/com.st.stm32cube.ide.mcu.sfrview.prefs.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/App_028_Example_9.2_Synchronizing_Tasks_with_Event_Group)[368]: java.lang.Exception: Resource '/App_028_Example_9.2_Synchronizing_Tasks_with_Event_Group' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:367)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:241)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:183)
+	at org.eclipse.core.internal.resources.Folder.assertCreateRequirements(Folder.java:43)
+	at org.eclipse.core.internal.resources.Folder.create(Folder.java:101)
+	at org.eclipse.core.internal.resources.ProjectPreferences.lambda$1(ProjectPreferences.java:736)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2453)
+	at org.eclipse.core.internal.resources.ProjectPreferences.save(ProjectPreferences.java:761)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.internalFlush(EclipsePreferences.java:429)
+	at org.eclipse.core.internal.resources.ProjectPreferences.flush(ProjectPreferences.java:465)
+	at com.st.stm32cube.ide.mcu.sfrview.state.ProjectStateManager.persistState(ProjectStateManager.java:95)
+	at com.st.stm32cube.ide.mcu.sfrview.state.ProjectStateManager.refresh(ProjectStateManager.java:45)
+	at com.st.stm32cube.ide.mcu.sfrview.ui.SfrView.svdModelChanged(SfrView.java:1860)
+	at com.st.stm32cube.ide.mcu.sfr.model.SfrRegisterModel.notifyListeners(SfrRegisterModel.java:1180)
+	at com.st.stm32cube.ide.mcu.sfr.model.SfrRegisterModel.refresh(SfrRegisterModel.java:1211)
+	at com.st.stm32cube.ide.mcu.sfr.model.SfrRegisterModel.refresh(SfrRegisterModel.java:1198)
+	at com.st.stm32cube.ide.mcu.sfr.model.SfrRegisterModel.selectionChanged(SfrRegisterModel.java:1163)
+	at org.eclipse.ui.internal.e4.compatibility.SelectionService.notifyListeners(SelectionService.java:266)
+	at org.eclipse.ui.internal.e4.compatibility.SelectionService.handleSelectionChanged(SelectionService.java:98)
+	at org.eclipse.ui.internal.e4.compatibility.SelectionService.lambda$0(SelectionService.java:72)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator$1.run(SelectionAggregator.java:123)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator.notifyListeners(SelectionAggregator.java:120)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator$5.lambda$0(SelectionAggregator.java:220)
+	at org.eclipse.e4.core.contexts.RunAndTrack.runExternalCode(RunAndTrack.java:59)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator$5.changed(SelectionAggregator.java:220)
+	at org.eclipse.e4.core.internal.contexts.TrackableComputationExt.update(TrackableComputationExt.java:105)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.processScheduled(EclipseContext.java:358)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.set(EclipseContext.java:374)
+	at org.eclipse.e4.ui.internal.workbench.SelectionServiceImpl.setSelection(SelectionServiceImpl.java:34)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.selectionChanged(CompatibilityPart.java:471)
+	at org.eclipse.jface.viewers.Viewer$1.run(Viewer.java:151)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.viewers.Viewer.fireSelectionChanged(Viewer.java:148)
+	at org.eclipse.jface.viewers.StructuredViewer.updateSelection(StructuredViewer.java:2137)
+	at org.eclipse.jface.viewers.ColumnViewer.updateSelection(ColumnViewer.java:1060)
+	at org.eclipse.jface.viewers.StructuredViewer.handleSelect(StructuredViewer.java:1175)
+	at org.eclipse.ui.navigator.CommonViewer.handleSelect(CommonViewer.java:464)
+	at org.eclipse.jface.viewers.StructuredViewer$4.widgetSelected(StructuredViewer.java:1204)
+	at org.eclipse.jface.util.OpenStrategy.fireSelectionEvent(OpenStrategy.java:263)
+	at org.eclipse.jface.util.OpenStrategy$1.handleEvent(OpenStrategy.java:421)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4273)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4071)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3659)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:648)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:555)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2025-02-19 12:33:32.797
+!MESSAGE Resource '/App_028_Example_9.2_Synchronizing_Tasks_with_Event_Group' does not exist.
+!STACK 0
+java.lang.Exception: Resource '/App_028_Example_9.2_Synchronizing_Tasks_with_Event_Group' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:367)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:241)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:183)
+	at org.eclipse.core.internal.resources.Folder.assertCreateRequirements(Folder.java:43)
+	at org.eclipse.core.internal.resources.Folder.create(Folder.java:101)
+	at org.eclipse.core.internal.resources.ProjectPreferences.lambda$1(ProjectPreferences.java:736)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2453)
+	at org.eclipse.core.internal.resources.ProjectPreferences.save(ProjectPreferences.java:761)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.internalFlush(EclipsePreferences.java:429)
+	at org.eclipse.core.internal.resources.ProjectPreferences.flush(ProjectPreferences.java:465)
+	at com.st.stm32cube.ide.mcu.sfrview.state.ProjectStateManager.persistState(ProjectStateManager.java:95)
+	at com.st.stm32cube.ide.mcu.sfrview.state.ProjectStateManager.refresh(ProjectStateManager.java:45)
+	at com.st.stm32cube.ide.mcu.sfrview.ui.SfrView.svdModelChanged(SfrView.java:1860)
+	at com.st.stm32cube.ide.mcu.sfr.model.SfrRegisterModel.notifyListeners(SfrRegisterModel.java:1180)
+	at com.st.stm32cube.ide.mcu.sfr.model.SfrRegisterModel.refresh(SfrRegisterModel.java:1211)
+	at com.st.stm32cube.ide.mcu.sfr.model.SfrRegisterModel.refresh(SfrRegisterModel.java:1198)
+	at com.st.stm32cube.ide.mcu.sfr.model.SfrRegisterModel.selectionChanged(SfrRegisterModel.java:1163)
+	at org.eclipse.ui.internal.e4.compatibility.SelectionService.notifyListeners(SelectionService.java:266)
+	at org.eclipse.ui.internal.e4.compatibility.SelectionService.handleSelectionChanged(SelectionService.java:98)
+	at org.eclipse.ui.internal.e4.compatibility.SelectionService.lambda$0(SelectionService.java:72)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator$1.run(SelectionAggregator.java:123)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator.notifyListeners(SelectionAggregator.java:120)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator$5.lambda$0(SelectionAggregator.java:220)
+	at org.eclipse.e4.core.contexts.RunAndTrack.runExternalCode(RunAndTrack.java:59)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator$5.changed(SelectionAggregator.java:220)
+	at org.eclipse.e4.core.internal.contexts.TrackableComputationExt.update(TrackableComputationExt.java:105)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.processScheduled(EclipseContext.java:358)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.set(EclipseContext.java:374)
+	at org.eclipse.e4.ui.internal.workbench.SelectionServiceImpl.setSelection(SelectionServiceImpl.java:34)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.selectionChanged(CompatibilityPart.java:471)
+	at org.eclipse.jface.viewers.Viewer$1.run(Viewer.java:151)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.viewers.Viewer.fireSelectionChanged(Viewer.java:148)
+	at org.eclipse.jface.viewers.StructuredViewer.updateSelection(StructuredViewer.java:2137)
+	at org.eclipse.jface.viewers.ColumnViewer.updateSelection(ColumnViewer.java:1060)
+	at org.eclipse.jface.viewers.StructuredViewer.handleSelect(StructuredViewer.java:1175)
+	at org.eclipse.ui.navigator.CommonViewer.handleSelect(CommonViewer.java:464)
+	at org.eclipse.jface.viewers.StructuredViewer$4.widgetSelected(StructuredViewer.java:1204)
+	at org.eclipse.jface.util.OpenStrategy.fireSelectionEvent(OpenStrategy.java:263)
+	at org.eclipse.jface.util.OpenStrategy$1.handleEvent(OpenStrategy.java:421)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4273)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4071)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3659)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:648)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:555)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+
+!ENTRY org.eclipse.core.resources 4 4 2025-02-19 12:34:07.323
+!MESSAGE Exception occurred while saving project preferences: /App_028_Example_9.2_Synchronizing Tasks_with_Event_Group/.settings/com.st.stm32cube.ide.mcu.sfrview.prefs.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/App_028_Example_9.2_Synchronizing Tasks_with_Event_Group)[368]: java.lang.Exception: Resource '/App_028_Example_9.2_Synchronizing Tasks_with_Event_Group' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:367)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:241)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:183)
+	at org.eclipse.core.internal.resources.Folder.assertCreateRequirements(Folder.java:43)
+	at org.eclipse.core.internal.resources.Folder.create(Folder.java:101)
+	at org.eclipse.core.internal.resources.ProjectPreferences.lambda$1(ProjectPreferences.java:736)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2453)
+	at org.eclipse.core.internal.resources.ProjectPreferences.save(ProjectPreferences.java:761)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.internalFlush(EclipsePreferences.java:429)
+	at org.eclipse.core.internal.resources.ProjectPreferences.flush(ProjectPreferences.java:465)
+	at com.st.stm32cube.ide.mcu.sfrview.state.ProjectStateManager.persistState(ProjectStateManager.java:95)
+	at com.st.stm32cube.ide.mcu.sfrview.state.ProjectStateManager.refresh(ProjectStateManager.java:45)
+	at com.st.stm32cube.ide.mcu.sfrview.ui.SfrView.svdModelChanged(SfrView.java:1860)
+	at com.st.stm32cube.ide.mcu.sfr.model.SfrRegisterModel.notifyListeners(SfrRegisterModel.java:1180)
+	at com.st.stm32cube.ide.mcu.sfr.model.SfrRegisterModel.refresh(SfrRegisterModel.java:1211)
+	at com.st.stm32cube.ide.mcu.sfr.model.SfrRegisterModel.refresh(SfrRegisterModel.java:1198)
+	at com.st.stm32cube.ide.mcu.sfr.model.SfrRegisterModel.selectionChanged(SfrRegisterModel.java:1163)
+	at org.eclipse.ui.internal.e4.compatibility.SelectionService.notifyListeners(SelectionService.java:266)
+	at org.eclipse.ui.internal.e4.compatibility.SelectionService.handleSelectionChanged(SelectionService.java:98)
+	at org.eclipse.ui.internal.e4.compatibility.SelectionService.lambda$0(SelectionService.java:72)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator$1.run(SelectionAggregator.java:123)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator.notifyListeners(SelectionAggregator.java:120)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator$5.lambda$0(SelectionAggregator.java:220)
+	at org.eclipse.e4.core.contexts.RunAndTrack.runExternalCode(RunAndTrack.java:59)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator$5.changed(SelectionAggregator.java:220)
+	at org.eclipse.e4.core.internal.contexts.TrackableComputationExt.update(TrackableComputationExt.java:105)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.processScheduled(EclipseContext.java:358)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.set(EclipseContext.java:374)
+	at org.eclipse.e4.ui.internal.workbench.SelectionServiceImpl.setSelection(SelectionServiceImpl.java:34)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.selectionChanged(CompatibilityPart.java:471)
+	at org.eclipse.jface.viewers.Viewer$1.run(Viewer.java:151)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.viewers.Viewer.fireSelectionChanged(Viewer.java:148)
+	at org.eclipse.jface.viewers.StructuredViewer.updateSelection(StructuredViewer.java:2137)
+	at org.eclipse.jface.viewers.ColumnViewer.updateSelection(ColumnViewer.java:1060)
+	at org.eclipse.jface.viewers.StructuredViewer.handleSelect(StructuredViewer.java:1175)
+	at org.eclipse.ui.navigator.CommonViewer.handleSelect(CommonViewer.java:464)
+	at org.eclipse.jface.viewers.StructuredViewer$4.widgetSelected(StructuredViewer.java:1204)
+	at org.eclipse.jface.util.OpenStrategy.fireSelectionEvent(OpenStrategy.java:263)
+	at org.eclipse.jface.util.OpenStrategy$1.handleEvent(OpenStrategy.java:421)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4273)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4071)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3659)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:648)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:555)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2025-02-19 12:34:07.323
+!MESSAGE Resource '/App_028_Example_9.2_Synchronizing Tasks_with_Event_Group' does not exist.
+!STACK 0
+java.lang.Exception: Resource '/App_028_Example_9.2_Synchronizing Tasks_with_Event_Group' does not exist.
+	at org.eclipse.core.internal.resources.ResourceException.provideStackTrace(ResourceException.java:42)
+	at org.eclipse.core.internal.resources.ResourceException.<init>(ResourceException.java:38)
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:367)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:241)
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:183)
+	at org.eclipse.core.internal.resources.Folder.assertCreateRequirements(Folder.java:43)
+	at org.eclipse.core.internal.resources.Folder.create(Folder.java:101)
+	at org.eclipse.core.internal.resources.ProjectPreferences.lambda$1(ProjectPreferences.java:736)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2453)
+	at org.eclipse.core.internal.resources.ProjectPreferences.save(ProjectPreferences.java:761)
+	at org.eclipse.core.internal.preferences.EclipsePreferences.internalFlush(EclipsePreferences.java:429)
+	at org.eclipse.core.internal.resources.ProjectPreferences.flush(ProjectPreferences.java:465)
+	at com.st.stm32cube.ide.mcu.sfrview.state.ProjectStateManager.persistState(ProjectStateManager.java:95)
+	at com.st.stm32cube.ide.mcu.sfrview.state.ProjectStateManager.refresh(ProjectStateManager.java:45)
+	at com.st.stm32cube.ide.mcu.sfrview.ui.SfrView.svdModelChanged(SfrView.java:1860)
+	at com.st.stm32cube.ide.mcu.sfr.model.SfrRegisterModel.notifyListeners(SfrRegisterModel.java:1180)
+	at com.st.stm32cube.ide.mcu.sfr.model.SfrRegisterModel.refresh(SfrRegisterModel.java:1211)
+	at com.st.stm32cube.ide.mcu.sfr.model.SfrRegisterModel.refresh(SfrRegisterModel.java:1198)
+	at com.st.stm32cube.ide.mcu.sfr.model.SfrRegisterModel.selectionChanged(SfrRegisterModel.java:1163)
+	at org.eclipse.ui.internal.e4.compatibility.SelectionService.notifyListeners(SelectionService.java:266)
+	at org.eclipse.ui.internal.e4.compatibility.SelectionService.handleSelectionChanged(SelectionService.java:98)
+	at org.eclipse.ui.internal.e4.compatibility.SelectionService.lambda$0(SelectionService.java:72)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator$1.run(SelectionAggregator.java:123)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator.notifyListeners(SelectionAggregator.java:120)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator$5.lambda$0(SelectionAggregator.java:220)
+	at org.eclipse.e4.core.contexts.RunAndTrack.runExternalCode(RunAndTrack.java:59)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator$5.changed(SelectionAggregator.java:220)
+	at org.eclipse.e4.core.internal.contexts.TrackableComputationExt.update(TrackableComputationExt.java:105)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.processScheduled(EclipseContext.java:358)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.set(EclipseContext.java:374)
+	at org.eclipse.e4.ui.internal.workbench.SelectionServiceImpl.setSelection(SelectionServiceImpl.java:34)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.selectionChanged(CompatibilityPart.java:471)
+	at org.eclipse.jface.viewers.Viewer$1.run(Viewer.java:151)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.viewers.Viewer.fireSelectionChanged(Viewer.java:148)
+	at org.eclipse.jface.viewers.StructuredViewer.updateSelection(StructuredViewer.java:2137)
+	at org.eclipse.jface.viewers.ColumnViewer.updateSelection(ColumnViewer.java:1060)
+	at org.eclipse.jface.viewers.StructuredViewer.handleSelect(StructuredViewer.java:1175)
+	at org.eclipse.ui.navigator.CommonViewer.handleSelect(CommonViewer.java:464)
+	at org.eclipse.jface.viewers.StructuredViewer$4.widgetSelected(StructuredViewer.java:1204)
+	at org.eclipse.jface.util.OpenStrategy.fireSelectionEvent(OpenStrategy.java:263)
+	at org.eclipse.jface.util.OpenStrategy$1.handleEvent(OpenStrategy.java:421)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4273)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1066)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4071)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3659)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:648)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:555)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-02-19 12:34:08.814
+!MESSAGE Indexed 'App_028_Example_9.2_Synchronizing_Tasks_with_Event_Group' (38 sources, 160 headers) in 7.3 sec: 17,140 declarations; 80,253 references; 2 unresolved inclusions; 230 syntax errors; 251 unresolved names (0.26%)
