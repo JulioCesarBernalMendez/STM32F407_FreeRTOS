@@ -1,0 +1,12 @@
+../Core/Src/main.c:160:5:main	16	static
+../Core/Src/main.c:234:6:SystemClock_Config	88	static
+../Core/Src/main.c:281:13:MX_TIM3_Init	32	static
+../Core/Src/main.c:326:13:MX_USART2_UART_Init	8	static
+../Core/Src/main.c:359:13:MX_GPIO_Init	48	static
+../Core/Src/main.c:406:6:UART2_Print_Text	24	static
+../Core/Src/main.c:418:13:vTim3InterruptEnablingTask	16	static
+../Core/Src/main.c:431:13:vEventBitSettingTask	24	static
+../Core/Src/main.c:455:13:vEventBitReadingTask	32	static
+../Core/Src/main.c:489:13:vDeferredHandlingFunction	16	static
+../Core/Src/main.c:505:6:HAL_TIM_PeriodElapsedCallback	24	static,ignoring_inline_asm
+../Core/Src/main.c:571:6:Error_Handler	4	static,ignoring_inline_asm

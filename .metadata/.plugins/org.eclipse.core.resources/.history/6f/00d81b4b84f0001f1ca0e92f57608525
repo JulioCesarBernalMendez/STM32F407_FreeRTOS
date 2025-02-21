@@ -1,0 +1,42 @@
+ThirdParty/FreeRTOS/Source/event_groups.o: \
+ ../ThirdParty/FreeRTOS/Source/event_groups.c \
+ C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_003_Example_4.1_Creating_Tasks_v1/ThirdParty/FreeRTOS/Source/include/FreeRTOS.h \
+ C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_003_Example_4.1_Creating_Tasks_v1/ThirdParty/FreeRTOS/FreeRTOSConfig.h \
+ C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_003_Example_4.1_Creating_Tasks_v1/ThirdParty/SystemView_Src_V354/Sample/SEGGER_SYSVIEW_FreeRTOS.h \
+ C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_003_Example_4.1_Creating_Tasks_v1/ThirdParty/SystemView_Src_V354/SEGGER/SEGGER_SYSVIEW.h \
+ C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_003_Example_4.1_Creating_Tasks_v1/ThirdParty/SystemView_Src_V354/SEGGER/SEGGER.h \
+ C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_003_Example_4.1_Creating_Tasks_v1/ThirdParty/SystemView_Src_V354/Config/Global.h \
+ C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_003_Example_4.1_Creating_Tasks_v1/ThirdParty/SystemView_Src_V354/SEGGER/SEGGER_SYSVIEW_ConfDefaults.h \
+ C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_003_Example_4.1_Creating_Tasks_v1/ThirdParty/SystemView_Src_V354/Config/SEGGER_SYSVIEW_Conf.h \
+ C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_003_Example_4.1_Creating_Tasks_v1/ThirdParty/SystemView_Src_V354/Config/SEGGER_RTT_Conf.h \
+ C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_003_Example_4.1_Creating_Tasks_v1/ThirdParty/FreeRTOS/Source/include/projdefs.h \
+ C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_003_Example_4.1_Creating_Tasks_v1/ThirdParty/FreeRTOS/Source/include/portable.h \
+ C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_003_Example_4.1_Creating_Tasks_v1/ThirdParty/FreeRTOS/Source/include/deprecated_definitions.h \
+ C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_003_Example_4.1_Creating_Tasks_v1/ThirdParty/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h \
+ C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_003_Example_4.1_Creating_Tasks_v1/ThirdParty/FreeRTOS/Source/include/mpu_wrappers.h \
+ C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_003_Example_4.1_Creating_Tasks_v1/ThirdParty/FreeRTOS/Source/include/task.h \
+ C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_003_Example_4.1_Creating_Tasks_v1/ThirdParty/FreeRTOS/Source/include/list.h \
+ C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_003_Example_4.1_Creating_Tasks_v1/ThirdParty/FreeRTOS/Source/include/timers.h \
+ C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_003_Example_4.1_Creating_Tasks_v1/ThirdParty/FreeRTOS/Source/include/task.h \
+ C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_003_Example_4.1_Creating_Tasks_v1/ThirdParty/FreeRTOS/Source/include/event_groups.h \
+ C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_003_Example_4.1_Creating_Tasks_v1/ThirdParty/FreeRTOS/Source/include/timers.h
+C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_003_Example_4.1_Creating_Tasks_v1/ThirdParty/FreeRTOS/Source/include/FreeRTOS.h:
+C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_003_Example_4.1_Creating_Tasks_v1/ThirdParty/FreeRTOS/FreeRTOSConfig.h:
+C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_003_Example_4.1_Creating_Tasks_v1/ThirdParty/SystemView_Src_V354/Sample/SEGGER_SYSVIEW_FreeRTOS.h:
+C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_003_Example_4.1_Creating_Tasks_v1/ThirdParty/SystemView_Src_V354/SEGGER/SEGGER_SYSVIEW.h:
+C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_003_Example_4.1_Creating_Tasks_v1/ThirdParty/SystemView_Src_V354/SEGGER/SEGGER.h:
+C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_003_Example_4.1_Creating_Tasks_v1/ThirdParty/SystemView_Src_V354/Config/Global.h:
+C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_003_Example_4.1_Creating_Tasks_v1/ThirdParty/SystemView_Src_V354/SEGGER/SEGGER_SYSVIEW_ConfDefaults.h:
+C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_003_Example_4.1_Creating_Tasks_v1/ThirdParty/SystemView_Src_V354/Config/SEGGER_SYSVIEW_Conf.h:
+C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_003_Example_4.1_Creating_Tasks_v1/ThirdParty/SystemView_Src_V354/Config/SEGGER_RTT_Conf.h:
+C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_003_Example_4.1_Creating_Tasks_v1/ThirdParty/FreeRTOS/Source/include/projdefs.h:
+C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_003_Example_4.1_Creating_Tasks_v1/ThirdParty/FreeRTOS/Source/include/portable.h:
+C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_003_Example_4.1_Creating_Tasks_v1/ThirdParty/FreeRTOS/Source/include/deprecated_definitions.h:
+C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_003_Example_4.1_Creating_Tasks_v1/ThirdParty/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h:
+C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_003_Example_4.1_Creating_Tasks_v1/ThirdParty/FreeRTOS/Source/include/mpu_wrappers.h:
+C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_003_Example_4.1_Creating_Tasks_v1/ThirdParty/FreeRTOS/Source/include/task.h:
+C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_003_Example_4.1_Creating_Tasks_v1/ThirdParty/FreeRTOS/Source/include/list.h:
+C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_003_Example_4.1_Creating_Tasks_v1/ThirdParty/FreeRTOS/Source/include/timers.h:
+C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_003_Example_4.1_Creating_Tasks_v1/ThirdParty/FreeRTOS/Source/include/task.h:
+C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_003_Example_4.1_Creating_Tasks_v1/ThirdParty/FreeRTOS/Source/include/event_groups.h:
+C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_003_Example_4.1_Creating_Tasks_v1/ThirdParty/FreeRTOS/Source/include/timers.h:

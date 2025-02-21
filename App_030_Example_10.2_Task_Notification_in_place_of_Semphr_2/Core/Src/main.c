@@ -163,7 +163,15 @@ int main(void)
   MX_USART2_UART_Init();
   MX_TIM3_Init();
   /* USER CODE BEGIN 2 */
+  /* enable CYCCNT (Cycle Count, needed for SEGGER SystemView) in DWT_CTRL register */
+  DWT->CTRL |= DWT_CTRL_CYCCNTENA_Msk;
 
+  /* initialize and configure SEGGER SystemView */
+  SEGGER_SYSVIEW_Conf();
+
+  /* start recording SEGGER SystemView events */
+  SEGGER_SYSVIEW_Start();
+  
   /* Create the 'handler' task, which is the task to which interrupt processing
      is deferred. This is the task that will be synchronized with the interrupt.
      (The handler task must be created with a high priority to ensure it runs

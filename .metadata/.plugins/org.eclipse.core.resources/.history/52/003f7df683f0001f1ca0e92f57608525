@@ -1,0 +1,36 @@
+ThirdParty/SystemView_Src_V354/Sample/SEGGER_SYSVIEW_FreeRTOS.o: \
+ ../ThirdParty/SystemView_Src_V354/Sample/SEGGER_SYSVIEW_FreeRTOS.c \
+ C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_023_Example_7.3_Centralized_Deferred_Interrupt_Processing/ThirdParty/FreeRTOS/Source/include/FreeRTOS.h \
+ C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_023_Example_7.3_Centralized_Deferred_Interrupt_Processing/ThirdParty/FreeRTOS/FreeRTOSConfig.h \
+ C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_023_Example_7.3_Centralized_Deferred_Interrupt_Processing/ThirdParty/SystemView_Src_V354/Sample/SEGGER_SYSVIEW_FreeRTOS.h \
+ C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_023_Example_7.3_Centralized_Deferred_Interrupt_Processing/ThirdParty/SystemView_Src_V354/SEGGER/SEGGER_SYSVIEW.h \
+ C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_023_Example_7.3_Centralized_Deferred_Interrupt_Processing/ThirdParty/SystemView_Src_V354/SEGGER/SEGGER.h \
+ C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_023_Example_7.3_Centralized_Deferred_Interrupt_Processing/ThirdParty/SystemView_Src_V354/Config/Global.h \
+ C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_023_Example_7.3_Centralized_Deferred_Interrupt_Processing/ThirdParty/SystemView_Src_V354/SEGGER/SEGGER_SYSVIEW_ConfDefaults.h \
+ C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_023_Example_7.3_Centralized_Deferred_Interrupt_Processing/ThirdParty/SystemView_Src_V354/Config/SEGGER_SYSVIEW_Conf.h \
+ C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_023_Example_7.3_Centralized_Deferred_Interrupt_Processing/ThirdParty/SystemView_Src_V354/Config/SEGGER_RTT_Conf.h \
+ C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_023_Example_7.3_Centralized_Deferred_Interrupt_Processing/ThirdParty/FreeRTOS/Source/include/projdefs.h \
+ C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_023_Example_7.3_Centralized_Deferred_Interrupt_Processing/ThirdParty/FreeRTOS/Source/include/portable.h \
+ C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_023_Example_7.3_Centralized_Deferred_Interrupt_Processing/ThirdParty/FreeRTOS/Source/include/deprecated_definitions.h \
+ C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_023_Example_7.3_Centralized_Deferred_Interrupt_Processing/ThirdParty/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h \
+ C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_023_Example_7.3_Centralized_Deferred_Interrupt_Processing/ThirdParty/FreeRTOS/Source/include/mpu_wrappers.h \
+ C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_023_Example_7.3_Centralized_Deferred_Interrupt_Processing/ThirdParty/FreeRTOS/Source/include/task.h \
+ C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_023_Example_7.3_Centralized_Deferred_Interrupt_Processing/ThirdParty/FreeRTOS/Source/include/list.h \
+ ../ThirdParty/SystemView_Src_V354/Sample/SEGGER_SYSVIEW_FreeRTOS.h
+C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_023_Example_7.3_Centralized_Deferred_Interrupt_Processing/ThirdParty/FreeRTOS/Source/include/FreeRTOS.h:
+C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_023_Example_7.3_Centralized_Deferred_Interrupt_Processing/ThirdParty/FreeRTOS/FreeRTOSConfig.h:
+C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_023_Example_7.3_Centralized_Deferred_Interrupt_Processing/ThirdParty/SystemView_Src_V354/Sample/SEGGER_SYSVIEW_FreeRTOS.h:
+C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_023_Example_7.3_Centralized_Deferred_Interrupt_Processing/ThirdParty/SystemView_Src_V354/SEGGER/SEGGER_SYSVIEW.h:
+C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_023_Example_7.3_Centralized_Deferred_Interrupt_Processing/ThirdParty/SystemView_Src_V354/SEGGER/SEGGER.h:
+C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_023_Example_7.3_Centralized_Deferred_Interrupt_Processing/ThirdParty/SystemView_Src_V354/Config/Global.h:
+C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_023_Example_7.3_Centralized_Deferred_Interrupt_Processing/ThirdParty/SystemView_Src_V354/SEGGER/SEGGER_SYSVIEW_ConfDefaults.h:
+C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_023_Example_7.3_Centralized_Deferred_Interrupt_Processing/ThirdParty/SystemView_Src_V354/Config/SEGGER_SYSVIEW_Conf.h:
+C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_023_Example_7.3_Centralized_Deferred_Interrupt_Processing/ThirdParty/SystemView_Src_V354/Config/SEGGER_RTT_Conf.h:
+C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_023_Example_7.3_Centralized_Deferred_Interrupt_Processing/ThirdParty/FreeRTOS/Source/include/projdefs.h:
+C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_023_Example_7.3_Centralized_Deferred_Interrupt_Processing/ThirdParty/FreeRTOS/Source/include/portable.h:
+C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_023_Example_7.3_Centralized_Deferred_Interrupt_Processing/ThirdParty/FreeRTOS/Source/include/deprecated_definitions.h:
+C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_023_Example_7.3_Centralized_Deferred_Interrupt_Processing/ThirdParty/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h:
+C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_023_Example_7.3_Centralized_Deferred_Interrupt_Processing/ThirdParty/FreeRTOS/Source/include/mpu_wrappers.h:
+C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_023_Example_7.3_Centralized_Deferred_Interrupt_Processing/ThirdParty/FreeRTOS/Source/include/task.h:
+C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_023_Example_7.3_Centralized_Deferred_Interrupt_Processing/ThirdParty/FreeRTOS/Source/include/list.h:
+../ThirdParty/SystemView_Src_V354/Sample/SEGGER_SYSVIEW_FreeRTOS.h:

@@ -1,0 +1,34 @@
+ThirdParty/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.o: \
+ ../ThirdParty/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c \
+ C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_021_Example_7.1_Binary_Semaphore_Synch_Task_With_Interrupt/ThirdParty/FreeRTOS/Source/include/FreeRTOS.h \
+ C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_021_Example_7.1_Binary_Semaphore_Synch_Task_With_Interrupt/ThirdParty/FreeRTOS/FreeRTOSConfig.h \
+ C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_021_Example_7.1_Binary_Semaphore_Synch_Task_With_Interrupt/ThirdParty/SystemView_Src_V354/Sample/SEGGER_SYSVIEW_FreeRTOS.h \
+ C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_021_Example_7.1_Binary_Semaphore_Synch_Task_With_Interrupt/ThirdParty/SystemView_Src_V354/SEGGER/SEGGER_SYSVIEW.h \
+ C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_021_Example_7.1_Binary_Semaphore_Synch_Task_With_Interrupt/ThirdParty/SystemView_Src_V354/SEGGER/SEGGER.h \
+ C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_021_Example_7.1_Binary_Semaphore_Synch_Task_With_Interrupt/ThirdParty/SystemView_Src_V354/Config/Global.h \
+ C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_021_Example_7.1_Binary_Semaphore_Synch_Task_With_Interrupt/ThirdParty/SystemView_Src_V354/SEGGER/SEGGER_SYSVIEW_ConfDefaults.h \
+ C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_021_Example_7.1_Binary_Semaphore_Synch_Task_With_Interrupt/ThirdParty/SystemView_Src_V354/Config/SEGGER_SYSVIEW_Conf.h \
+ C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_021_Example_7.1_Binary_Semaphore_Synch_Task_With_Interrupt/ThirdParty/SystemView_Src_V354/Config/SEGGER_RTT_Conf.h \
+ C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_021_Example_7.1_Binary_Semaphore_Synch_Task_With_Interrupt/ThirdParty/FreeRTOS/Source/include/projdefs.h \
+ C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_021_Example_7.1_Binary_Semaphore_Synch_Task_With_Interrupt/ThirdParty/FreeRTOS/Source/include/portable.h \
+ C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_021_Example_7.1_Binary_Semaphore_Synch_Task_With_Interrupt/ThirdParty/FreeRTOS/Source/include/deprecated_definitions.h \
+ C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_021_Example_7.1_Binary_Semaphore_Synch_Task_With_Interrupt/ThirdParty/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h \
+ C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_021_Example_7.1_Binary_Semaphore_Synch_Task_With_Interrupt/ThirdParty/FreeRTOS/Source/include/mpu_wrappers.h \
+ C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_021_Example_7.1_Binary_Semaphore_Synch_Task_With_Interrupt/ThirdParty/FreeRTOS/Source/include/task.h \
+ C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_021_Example_7.1_Binary_Semaphore_Synch_Task_With_Interrupt/ThirdParty/FreeRTOS/Source/include/list.h
+C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_021_Example_7.1_Binary_Semaphore_Synch_Task_With_Interrupt/ThirdParty/FreeRTOS/Source/include/FreeRTOS.h:
+C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_021_Example_7.1_Binary_Semaphore_Synch_Task_With_Interrupt/ThirdParty/FreeRTOS/FreeRTOSConfig.h:
+C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_021_Example_7.1_Binary_Semaphore_Synch_Task_With_Interrupt/ThirdParty/SystemView_Src_V354/Sample/SEGGER_SYSVIEW_FreeRTOS.h:
+C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_021_Example_7.1_Binary_Semaphore_Synch_Task_With_Interrupt/ThirdParty/SystemView_Src_V354/SEGGER/SEGGER_SYSVIEW.h:
+C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_021_Example_7.1_Binary_Semaphore_Synch_Task_With_Interrupt/ThirdParty/SystemView_Src_V354/SEGGER/SEGGER.h:
+C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_021_Example_7.1_Binary_Semaphore_Synch_Task_With_Interrupt/ThirdParty/SystemView_Src_V354/Config/Global.h:
+C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_021_Example_7.1_Binary_Semaphore_Synch_Task_With_Interrupt/ThirdParty/SystemView_Src_V354/SEGGER/SEGGER_SYSVIEW_ConfDefaults.h:
+C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_021_Example_7.1_Binary_Semaphore_Synch_Task_With_Interrupt/ThirdParty/SystemView_Src_V354/Config/SEGGER_SYSVIEW_Conf.h:
+C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_021_Example_7.1_Binary_Semaphore_Synch_Task_With_Interrupt/ThirdParty/SystemView_Src_V354/Config/SEGGER_RTT_Conf.h:
+C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_021_Example_7.1_Binary_Semaphore_Synch_Task_With_Interrupt/ThirdParty/FreeRTOS/Source/include/projdefs.h:
+C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_021_Example_7.1_Binary_Semaphore_Synch_Task_With_Interrupt/ThirdParty/FreeRTOS/Source/include/portable.h:
+C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_021_Example_7.1_Binary_Semaphore_Synch_Task_With_Interrupt/ThirdParty/FreeRTOS/Source/include/deprecated_definitions.h:
+C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_021_Example_7.1_Binary_Semaphore_Synch_Task_With_Interrupt/ThirdParty/FreeRTOS/Source/portable/GCC/ARM_CM4F/portmacro.h:
+C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_021_Example_7.1_Binary_Semaphore_Synch_Task_With_Interrupt/ThirdParty/FreeRTOS/Source/include/mpu_wrappers.h:
+C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_021_Example_7.1_Binary_Semaphore_Synch_Task_With_Interrupt/ThirdParty/FreeRTOS/Source/include/task.h:
+C:/Users/julio/Downloads/STM32F407_FreeRTOS/App_021_Example_7.1_Binary_Semaphore_Synch_Task_With_Interrupt/ThirdParty/FreeRTOS/Source/include/list.h:

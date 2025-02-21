@@ -1,0 +1,7 @@
+../Core/Src/main.c:77:5:main	1
+../Core/Src/main.c:137:6:SystemClock_Config	3
+../Core/Src/main.c:184:13:MX_GPIO_Init	1
+../Core/Src/main.c:231:6:Blue_LED_Task	1
+../Core/Src/main.c:243:6:Orange_LED_Task	1
+../Core/Src/main.c:265:6:HAL_TIM_PeriodElapsedCallback	2
+../Core/Src/main.c:282:6:Error_Handler	1

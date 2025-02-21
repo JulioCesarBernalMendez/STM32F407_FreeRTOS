@@ -1,0 +1,9 @@
+../Core/Src/main.c:80:5:main	1
+../Core/Src/main.c:157:6:SystemClock_Config	3
+../Core/Src/main.c:204:13:MX_USART2_UART_Init	2
+../Core/Src/main.c:237:13:MX_GPIO_Init	1
+../Core/Src/main.c:284:6:UART2_Print_Text	1
+../Core/Src/main.c:290:6:vTask1	2
+../Core/Src/main.c:310:6:vTask2	2
+../Core/Src/main.c:339:6:HAL_TIM_PeriodElapsedCallback	2
+../Core/Src/main.c:356:6:Error_Handler	1
